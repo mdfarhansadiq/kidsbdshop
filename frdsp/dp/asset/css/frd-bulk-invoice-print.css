@@ -1,0 +1,192 @@
+/******************************************************************/
+/*frd-bulk-invoice-2*/
+/******************************************************************/
+.frd-bulk-invoice-2 .box {
+  width: 350px;
+  height: 330px;
+  display: inline-block;
+  border: 1px #111111 solid;
+  margin: 10px;
+  padding: 5px;
+  overflow: hidden;
+  float: left;
+  font-family: "SolaimanLipi";
+}
+.frd-bulk-invoice-2 .box img.logo {
+  width: 100px;
+  height: 50px;
+  margin: auto;
+  display: block;
+}
+.frd-bulk-invoice-2 .box .condition {
+  text-align: center;
+  color: brown;
+  margin-top: -5px;
+  margin-bottom: -5px;
+  font-weight: 900;
+  font-size: 30px;
+}
+
+.frd-bulk-invoice-2 .box .barcode {
+  text-align: center;
+}
+
+.frd-bulk-invoice-2 .text-center {
+  text-align: center;
+}
+.frd-bulk-invoice-2 .FR {
+  float: right;
+}
+
+/******************************************************************/
+/*frd-bulk-invoice-3*/
+/******************************************************************/
+.frd-bulk-invoice-3 .box {
+  width: 750px;
+  height: 330px;
+  display: inline-block;
+  border: 1px #111111 solid;
+  margin: 10px;
+  padding: 5px;
+  overflow: hidden;
+  font-family: "SolaimanLipi";
+}
+.frd-bulk-invoice-3 .box img.logo {
+  width: 100px;
+  height: 50px;
+  margin: auto;
+  display: block;
+}
+.frd-bulk-invoice-3 .box .condition {
+  color: #000000;
+  margin-top: -5px;
+  margin-bottom: -5px;
+  font-weight: 900;
+  font-size: 30px;
+}
+
+.frd-bulk-invoice-3 .box .barcode {
+  text-align: center;
+  margin-top: -30px;
+}
+
+.frd-bulk-invoice-3 .text-center {
+  text-align: center;
+}
+
+.frd-bulk-invoice-3 .box table.items {
+  border: 1px solid green;
+  margin-top: 5px;
+}
+
+.frd-bulk-invoice-3 .box table.aditional-info tr td {
+  border: 1px solid green;
+}
+
+.frd-bulk-invoice-3 .FR {
+  float: right;
+}
+
+/******************************************************************/
+/*frd-bulk-invoice-4*/
+/******************************************************************/
+.frd-bulk-invoice-4 .box {
+  width: 750px;
+  height: 500px;
+  display: inline-block;
+  border: 1px #777777 solid;
+  margin: 10px;
+  margin-top: 20px;
+  padding: 5px;
+  overflow: hidden;
+  font-family: "SolaimanLipi";
+}
+
+.frd-bulk-invoice-4 .box table.tablemain div.copy1 {
+  border: 1px solid #333333 !important;
+  padding: 5px;
+  margin: 5px;
+}
+
+.frd-bulk-invoice-4 .box img.logo {
+  width: 100px;
+  height: 50px;
+  margin: auto;
+  display: block;
+}
+.frd-bulk-invoice-4 .box .condition {
+  color: #111111;
+  margin-top: -5px;
+  margin-bottom: -5px;
+  font-weight: 900;
+  font-size: 30px;
+  text-align: center;
+}
+
+.frd-bulk-invoice-4 .box .barcode {
+  text-align: center;
+  margin-top: 3px;
+}
+
+.frd-bulk-invoice-4 .text-center {
+  text-align: center;
+}
+
+.frd-bulk-invoice-4 .box table.items {
+  border: 1px solid green;
+  margin-top: 5px;
+  width: 100%;
+}
+
+.frd-bulk-invoice-4 .box table.aditional-info tr td {
+  border: 1px solid green;
+}
+
+/******************************************************************/
+/*frd-bulk-invoice-6*/
+/******************************************************************/
+.frd-bulk-invoice-6 .box {
+  width: 750px;
+  height: 330px;
+  display: inline-block;
+  border: 1px #111111 solid;
+  margin: 10px;
+  padding: 5px;
+  overflow: hidden;
+  font-family: "SolaimanLipi";
+}
+.frd-bulk-invoice-6 .box img.logo {
+  width: 100px;
+  height: 50px;
+  margin: auto;
+  display: block;
+}
+.frd-bulk-invoice-6 .box .condition {
+  color: #000000;
+  margin-top: -5px;
+  margin-bottom: -5px;
+  font-weight: 900;
+  font-size: 30px;
+}
+
+.frd-bulk-invoice-6 .box .barcode {
+  text-align: center;
+  margin-top: -30px;
+}
+
+.frd-bulk-invoice-6 .text-center {
+  text-align: center;
+}
+
+.frd-bulk-invoice-6 .box table.items {
+  border: 1px solid green;
+  margin-top: 5px;
+}
+
+.frd-bulk-invoice-6 .box table.aditional-info tr td {
+  border: 1px solid green;
+}
+
+.frd-bulk-invoice-6 .FR {
+  float: right;
+}

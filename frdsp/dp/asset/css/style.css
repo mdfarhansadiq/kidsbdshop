@@ -1,0 +1,667 @@
+body{
+    font-family: 'SolaimanLipi';
+    margin-top: 52px;
+    background: #D5D0CD;
+    background: #fff;
+    margin-bottom: 50px;
+    overflow-x: hidden !important;
+}
+@media (min-width: 768px){
+    body{
+        margin-left: 235px;
+    }
+}
+
+
+
+/***********************************************************/
+/* FRD TYPOGRAPHY */
+/***********************************************************/
+.frd_dn{
+    display: none;
+}
+@media (max-width:768px){
+    .xs_disp_none{
+        display: none !important;
+    }
+}
+
+@media (min-width:991px){
+    .md_disp_none{
+        display: none !important;
+    }
+}
+ 
+.m-5{
+    margin: 5px;
+}
+.mt-5{
+    margin-top: 5px;
+}
+.mt-10{
+    margin-top: 10px;
+}
+.mb-5{
+    margin-bottom: 5px;
+}
+.mb-10{
+    margin-bottom: 10px;
+}
+.pt-5{
+    padding: 5px;
+}
+.pb-5{
+    padding: 5px;
+}
+.p-5{
+    padding: 5px;
+}
+.p-10{
+    padding: 10px !important;
+}
+
+a.text-decoration-none{
+  text-decoration: none;
+}
+a.fr-text-deco-none{
+  text-decoration: none;
+}
+a.frd_tdn{
+    text-decoration: none;
+}
+.fr-line-del {
+    text-decoration: line-through;
+}
+
+.font10px{
+    font-size: 10px;
+}
+.boldd{
+    font-weight: bold;
+}
+.pointer{
+    cursor: pointer;
+}
+.c_na{
+    cursor: not-allowed;
+}
+
+.TAL{
+    text-align: left;
+}
+.TAC{
+    text-align: center;
+}
+.TAR{
+    text-align: right;
+}
+
+
+
+.fr-color-white{
+    color: #FFF;
+}
+.fr-color-111{
+    color: #111;
+}
+.g{
+    color: darkgreen;
+}
+.g2{
+    color: #39B87C;
+}
+.r{
+    color: brown;
+}
+.y{
+    color: yellow;
+}
+.cddd{
+    color: #ddd;
+}
+.fff{
+    color: #fff;
+}
+.c555{
+    color: #555;
+}
+
+
+
+
+
+
+/***********************************************************/
+/* TOP FIX NAVE START */
+/***********************************************************/
+.navbar{
+    background: #000;
+}
+/* side-nave-open-close-trig */
+#btn_open_sidenave,#btn_close_sidenave{
+    color: #ddd;
+}
+#btn_open_sidenave{
+      display: none;
+    }
+@media (max-width: 991px){
+    #btn_open_sidenave{
+      display: block;
+    }
+    #btn_close_sidenave{
+       display: none;
+    }
+}
+
+nav.frdtopfnav a.dropdown-toggle{
+    color: #FFFFFF !important;
+}
+nav.frdtopfnav a.dropdown-toggle:hover{
+    background: #222222 !important;
+    transform: scale(1.1);
+}
+
+nav.frdtopfnav ul.dropdown-menu{
+    background: #222222 !important;
+}
+nav.frdtopfnav ul.dropdown-menu a{
+  color: #DDDDDD !important;
+}
+nav.frdtopfnav ul.dropdown-menu a:hover{
+  background: #BF1E2E !important;
+  transform: scale(1.1);
+}
+
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+  background: #222222 !important;
+}
+/**END**/
+
+
+
+
+
+/*****************************************/
+/* PANEL PAGE TITLE */
+/*****************************************/
+h2.PT{
+    text-align: center;
+    color: #FF6E68;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+/***********************************************************************/
+/* SIDE NAVE START  */
+/***********************************************************************/
+/*FRD PANEL TITEL*/
+.frdpaneltitle{
+    text-align: center;
+    font-weight: 800;
+    color: #FFF;
+    background: #333;
+    padding: 5px;
+    margin-top: 0px;
+    margin-bottom: 6px;
+    cursor: help;
+}
+/* The side navigation menu */
+			.sidenav {
+				height: 100%; /* 100% Full-height */
+				position: fixed; /* Stay in place */
+				z-index: 1; /* Stay on top */
+				top: 0;
+				left: 0;
+				background-color: #000; /* Black*/
+				overflow-x: hidden; /* Disable horizontal scroll */
+				padding-top: 30px; /* Place content 60px from the top */
+				transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+                margin-top: 30px;
+                width: 230px;
+                
+			}
+            .sidenav h5 {
+				color: yellow;
+                background: #333;
+                padding: 5px;
+			}
+			/* The navigation menu links */
+           .sidenav a {
+				padding: 3px 3px 3px 6px;
+				text-decoration: none;
+				font-size: 15px;
+				color: #818181;
+				display: block;
+				transition: 0.3s
+			}
+
+			/* When you mouse over the navigation links, change their color */
+			.sidenav a:hover, .offcanvas a:focus{
+				color: #f1f1f1;
+                background: #222;
+                margin-left: 5px;
+			}
+
+            /* Active Page */
+			.sidenav a.active {
+                    color: #f1f1f1;
+                    background: brown !important;
+                    margin-left: 5px;
+			}
+
+			/* Position and style the close button (top right corner) */
+			.sidenav .closebtn {
+				position: absolute;
+				top: 0;
+				right: 25px;
+				font-size: 36px;
+				margin-left: 50px;
+			}
+
+			/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+			#main {
+				transition: margin-left .5s;
+				padding: 20px;
+			}
+			/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+			@media screen and (max-height: 450px) {
+				.sidenav {padding-top: 15px;}
+				.sidenav a {font-size: 18px;}
+			}
+            @media screen and (max-width: 991px) {
+                    .sidenav{
+                      width:0px;
+                  }
+            }
+
+/* +++ */
+/* +++ */
+/* +++ */
+/* +++ */
+/* +++ */
+/* +++ */
+/*******************************************************************/
+/* boot-according s */
+/*******************************************************************/
+/************ Bootstrap According Start */
+/************ Side Nave Bootstrap According Start */
+/*Note: This Css Need To Very bootm */
+.panel-heading.c_pointer{
+	color:white;
+    background:#333;
+    border: none !important;
+    font-weight: 800 !important;
+}
+.panel-heading.c_pointer:hover{
+    background:#088b50;
+	color:white;
+}
+.panel-title:hover{
+	cursor:pointer;
+}
+.panel-heading.c_pointer.active{
+   background:#088b50 !important;
+}
+.panel{
+	background:#222;
+	color:white;
+    margin-left: -10px;
+    margin-right: -10px;
+    border: none;
+}
+
+
+
+
+
+/*******************************************************************/
+/*FRD PRINT TABLE CSS */
+/*******************************************************************/
+table.t_print{
+    width: 100%;
+ }
+table.t_print tr td{
+    border: 1px solid #222;
+    padding: 2px;
+}
+
+
+
+
+
+
+/************************************************************/
+/* FORM DATE PICKER START */
+/************************************************************/
+/*** date-picker-form */
+ form#F_DatePicker input[type="text"]{
+                float: left;
+                margin-left: 10px;
+                font-size: 18px;
+            } 
+form#F_DatePicker input[type="text"]{
+                width: 150px;
+                height: 30px;
+            }
+form#F_DatePicker input[type="submit"]{
+                float: left;
+                margin-left: 10px;
+                font-size: 18px;
+                width: 200px;
+                border: none;
+                background: #0e704e;
+                height: 30px;
+                color: aliceblue;
+    }
+
+
+
+
+/***********************************************/
+/*BOOTSTRAP MODEL CUSTPOMIZE*/
+/***********************************************/
+.modal-dialog{
+        margin-top: 10% !important;
+} 
+
+
+
+
+/***********************************************/
+/* FRD CARD */
+/*************************************************/
+.frd-card-1{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    padding: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.frd-card-2{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    padding: 5px;
+    text-align: center;
+    cursor: pointer;
+    margin: 20px;
+}
+.frd-card-2 a{
+    color: #000;
+    font-weight: 900;
+}
+.frd-card-2:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+
+/***********************************************/
+/*overwrite for summernote */
+/*************************************************/
+    input[type="file"] {
+        /*  display: none; */
+    }
+    .note-modal .note-image-input {
+           display: none !important;
+    }
+    label{
+        color: darkred;
+    }
+    .modal-title{
+        color: red;
+    }
+
+
+
+
+/******************************************************/
+/* FORM 2 START */
+/******************************************************/
+form.f2 h4{
+    text-align: center;
+    font-weight: bolder;
+    border-bottom: 1px #ddd solid;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}    
+
+form.f2{
+    border: 2px #333 solid;
+    padding: 10px;
+    border-radius: 10px;
+}
+ form.f2 table{     
+   width: 100% !important;
+} 
+form.f2 table tr td{     
+   padding-bottom: 10px !important;
+} 
+form.f2 table tr td:first-child{
+    text-align: right;
+    padding-right: 20px;
+}
+form.f2 button[type="submit"]{
+    
+}
+form.f2 button[type="submit"]:hover{
+    
+}
+
+
+
+
+/***********************************************************************/
+/* FRD USER LIST 1 */
+/************************************************************************/
+.frUsrList1 .user-list tbody td > img {
+    position: relative;
+	max-width: 50px;
+	float: left;
+	margin-right: 15px;
+}
+.frUsrList1 .user-list tbody td .user-link {
+	display: block;
+	font-size: 1.25em;
+	padding-top: 3px;
+	margin-left: 60px;
+}
+.frUsrList1 .user-list tbody td .user-subhead {
+	font-size: 0.875em;
+	font-style: italic;
+}
+
+/* TABLES */
+.frUsrList1 .table {
+    border-collapse: separate;
+}
+.frUsrList1 .table-hover > tbody > tr:hover > td,
+.frUsrList1 .table-hover > tbody > tr:hover > th {
+	background-color: #eee;
+}
+.frUsrList1 .table thead > tr > th {
+	border-bottom: 1px solid #C2C2C2;
+	padding-bottom: 0;
+}
+.frUsrList1 .table tbody > tr > td {
+	font-size: 0.875em;
+	background: #f5f5f5;
+	border-top: 10px solid #fff;
+	vertical-align: middle;
+	padding: 12px 8px;
+}
+.frUsrList1 .table tbody > tr > td:first-child,
+.frUsrList1 .table thead > tr > th:first-child {
+	padding-left: 20px;
+}
+.frUsrList1 .table thead > tr > th span {
+	border-bottom: 2px solid #C2C2C2;
+	display: inline-block;
+	padding: 0 5px;
+	padding-bottom: 5px;
+	font-weight: normal;
+}
+.frUsrList1 .table thead > tr > th > a span {
+	color: #344644;
+}
+.frUsrList1 .table thead > tr > th > a span:after {
+	content: "\f0dc";
+	font-family: FontAwesome;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: inherit;
+	margin-left: 5px;
+	font-size: 0.75em;
+}
+.frUsrList1 .table thead > tr > th > a.asc span:after {
+	content: "\f0dd";
+}
+.frUsrList1 .table thead > tr > th > a.desc span:after {
+	content: "\f0de";
+}
+.frUsrList1 .table thead > tr > th > a:hover span {
+	text-decoration: none;
+	color: #2bb6a3;
+	border-color: #2bb6a3;
+}
+.frUsrList1 .table.table-hover tbody > tr > td {
+	-webkit-transition: background-color 0.15s ease-in-out 0s;
+	transition: background-color 0.15s ease-in-out 0s;
+}
+.frUsrList1 .table tbody tr td .call-type {
+	display: block;
+	font-size: 0.75em;
+	text-align: center;
+}
+.frUsrList1 .table tbody tr td .first-line {
+	line-height: 1.5;
+	font-weight: 400;
+	font-size: 1.125em;
+}
+.frUsrList1 .table tbody tr td .first-line span {
+	font-size: 0.875em;
+	color: #969696;
+	font-weight: 300;
+}
+.frUsrList1 .table tbody tr td .second-line {
+	font-size: 0.875em;
+	line-height: 1.2;
+}
+.frUsrList1 .table a.table-link {
+	margin: 0px 5px;
+	font-size: 1.125em;
+}
+.frUsrList1 .table a.table-link{
+	opacity: 0.7;
+}
+.frUsrList1 .table a.table-link:hover {
+	opacity: 1;
+}
+/* FRD USER LIST 1 END>> */
+
+
+
+
+
+/************************************************************************/
+/*FRD TIME LINE CSS START*/
+/************************************************************************/
+.timeline {
+    border-left: 3px solid #159b71;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    /* background: rgba(114, 124, 245, 0.09); */
+    margin: 0 auto;
+    margin-bottom: 20px;
+    letter-spacing: 0.2px;
+    position: relative;
+    line-height: 1.4em;
+    font-size: 1.03em;
+    padding: 25px;
+    list-style: none;
+    text-align: left;
+    width: 100%;
+    
+}
+
+.timeline h1 {
+    font-weight: 300;
+    font-size: 1.1em;
+}
+
+.timeline h2,
+.timeline h3 {
+    font-weight: 600;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.timeline .event {
+    border-bottom: 1px dashed #e8ebf1;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.timeline .event:last-of-type {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border: none;
+}
+
+.timeline .event:before,
+.timeline .event:after {
+    position: absolute;
+    display: block;
+    top: 0;
+}
+
+.timeline .event:before {
+    /* left: -207px; */
+    margin-bottom: -20px !important;
+    position: relative;
+    opacity: 0.7;
+
+    content: attr(data-date);
+    text-align: left;
+    font-weight: 100;
+    font-size: 0.9em;
+    min-width: 120px;
+}
+
+.timeline .event:after {
+    -webkit-box-shadow: 0 0 0 3px #159b71;
+    box-shadow: 0 0 0 3px #159b71;
+    left: -36px;
+    background: #fff;
+    border-radius: 50%;
+    height: 18px;
+    width: 18px;
+    content: "ok";
+    font-size: 14px;
+    padding-left: 3px;
+    /* content: "✅"; */
+    content: "✔️";
+    top: 19px;
+}
+
+.timeline .active_event:after {
+    background: #159b71;
+    color: #FFF !important;
+    content: "✔️";
+    padding-left: 2px;
+    animation: active_event_pippip 1s infinite;
+}
+@keyframes active_event_pippip {
+    50% {
+        background: #FFF;
+    }
+}

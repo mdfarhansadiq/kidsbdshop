@@ -1,0 +1,285 @@
+[15-Nov-2024 13:04:32 Asia/Dhaka] PHP Warning:  Undefined array key 1 in /home/kidsbdsh/public_html/frd-public/theme/page/frd-mix/frd-OrderTrack.php on line 2
+[15-Nov-2024 21:18:49 Asia/Dhaka] PHP Warning:  Undefined array key 1 in /home/kidsbdsh/public_html/frd-public/theme/page/frd-mix/frd-OrderTrack.php on line 597
+[15-Nov-2024 21:18:49 Asia/Dhaka] PHP Warning:  Undefined array key 1 in /home/kidsbdsh/public_html/frd-public/theme/page/frd-mix/frd-OrderTrack.php on line 597
+[15-Nov-2024 22:32:44 Asia/Dhaka] PHP Fatal error:  Uncaught TypeError: extract(): Argument #1 ($array) must be of type array, bool given in /home/kidsbdsh/public_html/frd-public/theme/page/frd-pro/frd-product.php:17
+Stack trace:
+#0 /home/kidsbdsh/public_html/frd-public/theme/page/frd-pro/frd-product.php(17): extract()
+#1 /home/kidsbdsh/public_html/frd-public/theme/frd-tpm.php(61): require_once('/home/kidsbdsh/...')
+#2 /home/kidsbdsh/public_html/pm_frd.php(7): require_once('/home/kidsbdsh/...')
+#3 {main}
+  thrown in /home/kidsbdsh/public_html/frd-public/theme/page/frd-pro/frd-product.php on line 17
+[16-Nov-2024 06:34:49 Asia/Dhaka] PHP Warning:  Undefined array key "cart_price" in /home/kidsbdsh/public_html/frd-public/theme/page/frd-mix/frd-checkout.php on line 76
+[16-Nov-2024 06:34:49 Asia/Dhaka] PHP Warning:  Undefined array key "cart_price" in /home/kidsbdsh/public_html/frd-public/theme/page/frd-mix/frd-checkout.php on line 149
+[16-Nov-2024 06:34:49 Asia/Dhaka] PHP Warning:  Undefined array key "cart_price" in /home/kidsbdsh/public_html/frd-public/theme/page/frd-mix/frd-checkout.php on line 338
+[16-Nov-2024 06:34:49 Asia/Dhaka] PHP Warning:  Undefined array key "cart_price" in /home/kidsbdsh/public_html/frd-public/theme/page/frd-mix/frd-checkout.php on line 352
+[16-Nov-2024 06:34:49 Asia/Dhaka] PHP Warning:  Undefined array key "cart_price" in /home/kidsbdsh/public_html/frd-public/theme/page/frd-mix/frd-checkout.php on line 494
+[16-Nov-2024 06:34:49 Asia/Dhaka] PHP Warning:  Undefined array key "cart_price" in /home/kidsbdsh/public_html/frd-public/theme/page/frd-mix/frd-checkout.php on line 588
+[16-Nov-2024 10:41:48 Asia/Dhaka] PHP Warning:  Undefined array key 1 in /home/kidsbdsh/public_html/frd-public/theme/page/frd-mix/frd-OrderTrack.php on line 597
+[16-Nov-2024 10:41:48 Asia/Dhaka] PHP Warning:  Undefined array key 1 in /home/kidsbdsh/public_html/frd-public/theme/page/frd-mix/frd-OrderTrack.php on line 597
+[16-Nov-2024 10:41:49 Asia/Dhaka] PHP Warning:  Undefined array key 1 in /home/kidsbdsh/public_html/frd-public/theme/page/frd-mix/frd-OrderTrack.php on line 597
+[16-Nov-2024 10:41:49 Asia/Dhaka] PHP Warning:  Undefined array key 1 in /home/kidsbdsh/public_html/frd-public/theme/page/frd-mix/frd-OrderTrack.php on line 597
+[16-Nov-2024 10:42:16 Asia/Dhaka] PHP Warning:  Undefined array key 1 in /home/kidsbdsh/public_html/frd-public/theme/page/frd-mix/frd-OrderTrack.php on line 597
+[16-Nov-2024 10:42:16 Asia/Dhaka] PHP Warning:  Undefined array key 1 in /home/kidsbdsh/public_html/frd-public/theme/page/frd-mix/frd-OrderTrack.php on line 597
+[16-Nov-2024 10:42:16 Asia/Dhaka] PHP Warning:  Undefined array key 1 in /home/kidsbdsh/public_html/frd-public/theme/page/frd-mix/frd-OrderTrack.php on line 597
+[16-Nov-2024 10:42:17 Asia/Dhaka] PHP Warning:  Undefined array key 1 in /home/kidsbdsh/public_html/frd-public/theme/page/frd-mix/frd-OrderTrack.php on line 597
+[16-Nov-2024 10:42:17 Asia/Dhaka] PHP Warning:  Undefined array key 1 in /home/kidsbdsh/public_html/frd-public/theme/page/frd-mix/frd-OrderTrack.php on line 597
+[16-Nov-2024 10:42:17 Asia/Dhaka] PHP Warning:  Undefined array key 1 in /home/kidsbdsh/public_html/frd-public/theme/page/frd-mix/frd-OrderTrack.php on line 597
+[16-Nov-2024 13:34:21 Asia/Dhaka] PHP Warning:  Undefined variable $UsrPIC in /home/kidsbdsh/public_html/frd-public/theme/page/mng_login/frd-final-login-reg-script.php on line 126
+[16-Nov-2024 13:51:49 Asia/Dhaka] PHP Warning:  Trying to access array offset on value of type bool in /home/kidsbdsh/public_html/frd-public/theme/page/mng_login/frd-final-login-reg-script.php on line 42
+[16-Nov-2024 13:51:49 Asia/Dhaka] PHP Warning:  Trying to access array offset on value of type bool in /home/kidsbdsh/public_html/frd-public/theme/page/mng_login/frd-final-login-reg-script.php on line 43
+[16-Nov-2024 13:51:49 Asia/Dhaka] PHP Warning:  Trying to access array offset on value of type bool in /home/kidsbdsh/public_html/frd-public/theme/page/mng_login/frd-final-login-reg-script.php on line 44
+[16-Nov-2024 13:51:49 Asia/Dhaka] PHP Warning:  Trying to access array offset on value of type bool in /home/kidsbdsh/public_html/frd-public/theme/page/mng_login/frd-final-login-reg-script.php on line 45
+[16-Nov-2024 13:51:49 Asia/Dhaka] PHP Warning:  Trying to access array offset on value of type bool in /home/kidsbdsh/public_html/frd-public/theme/page/mng_login/frd-final-login-reg-script.php on line 46
+[16-Nov-2024 13:51:49 Asia/Dhaka] PHP Warning:  Trying to access array offset on value of type bool in /home/kidsbdsh/public_html/frd-public/theme/page/mng_login/frd-final-login-reg-script.php on line 47
+[16-Nov-2024 13:51:49 Asia/Dhaka] PHP Warning:  Trying to access array offset on value of type bool in /home/kidsbdsh/public_html/frd-public/theme/page/mng_login/frd-final-login-reg-script.php on line 48
+[16-Nov-2024 19:16:31 Asia/Dhaka] PHP Warning:  Undefined variable $frd_productname in /home/kidsbdsh/public_html/frd-public/theme/page/frd-mix/frd-search.php on line 108
+[16-Nov-2024 19:16:31 Asia/Dhaka] PHP Warning:  Undefined variable $frd_productname in /home/kidsbdsh/public_html/frd-public/theme/page/frd-mix/frd-search.php on line 163
+[17-Nov-2024 02:19:05 Asia/Dhaka] PHP Warning:  Undefined array key 1 in /home/kidsbdsh/public_html/frd-public/theme/page/frd-mix/frd-OrderTrack.php on line 597
+[17-Nov-2024 02:19:05 Asia/Dhaka] PHP Warning:  Undefined array key 1 in /home/kidsbdsh/public_html/frd-public/theme/page/frd-mix/frd-OrderTrack.php on line 597
+[17-Nov-2024 07:25:21 Asia/Dhaka] PHP Fatal error:  Uncaught TypeError: extract(): Argument #1 ($array) must be of type array, bool given in /home/kidsbdsh/public_html/frd-public/theme/page/frd-pro/frd-product.php:17
+Stack trace:
+#0 /home/kidsbdsh/public_html/frd-public/theme/page/frd-pro/frd-product.php(17): extract()
+#1 /home/kidsbdsh/public_html/frd-public/theme/frd-tpm.php(61): require_once('/home/kidsbdsh/...')
+#2 /home/kidsbdsh/public_html/pm_frd.php(7): require_once('/home/kidsbdsh/...')
+#3 {main}
+  thrown in /home/kidsbdsh/public_html/frd-public/theme/page/frd-pro/frd-product.php on line 17
+[17-Nov-2024 18:33:10 Asia/Dhaka] PHP Fatal error:  Uncaught TypeError: extract(): Argument #1 ($array) must be of type array, bool given in /home/kidsbdsh/public_html/frd-public/theme/page/frd-pro/frd-product.php:17
+Stack trace:
+#0 /home/kidsbdsh/public_html/frd-public/theme/page/frd-pro/frd-product.php(17): extract()
+#1 /home/kidsbdsh/public_html/frd-public/theme/frd-tpm.php(61): require_once('/home/kidsbdsh/...')
+#2 /home/kidsbdsh/public_html/pm_frd.php(7): require_once('/home/kidsbdsh/...')
+#3 {main}
+  thrown in /home/kidsbdsh/public_html/frd-public/theme/page/frd-pro/frd-product.php on line 17
+[18-Nov-2024 03:00:52 Asia/Dhaka] PHP Warning:  Undefined array key 1 in /home/kidsbdsh/public_html/frd-public/theme/page/frd-mix/frd-page.php on line 5
+[18-Nov-2024 03:00:52 Asia/Dhaka] PHP Warning:  Trying to access array offset on value of type bool in /home/kidsbdsh/public_html/rtd/pages_t_frd.php on line 4
+[18-Nov-2024 03:00:52 Asia/Dhaka] PHP Warning:  Trying to access array offset on value of type bool in /home/kidsbdsh/public_html/rtd/pages_t_frd.php on line 5
+[18-Nov-2024 03:00:52 Asia/Dhaka] PHP Warning:  Trying to access array offset on value of type bool in /home/kidsbdsh/public_html/rtd/pages_t_frd.php on line 6
+[18-Nov-2024 03:00:52 Asia/Dhaka] PHP Warning:  Trying to access array offset on value of type bool in /home/kidsbdsh/public_html/rtd/pages_t_frd.php on line 7
+[18-Nov-2024 03:00:52 Asia/Dhaka] PHP Warning:  Trying to access array offset on value of type bool in /home/kidsbdsh/public_html/rtd/pages_t_frd.php on line 8
+[18-Nov-2024 03:00:52 Asia/Dhaka] PHP Warning:  Trying to access array offset on value of type bool in /home/kidsbdsh/public_html/rtd/pages_t_frd.php on line 9
+[18-Nov-2024 03:00:52 Asia/Dhaka] PHP Warning:  Trying to access array offset on value of type bool in /home/kidsbdsh/public_html/rtd/pages_t_frd.php on line 10
+[18-Nov-2024 03:00:52 Asia/Dhaka] PHP Warning:  Undefined array key 1 in /home/kidsbdsh/public_html/frd-public/theme/page/frd-mix/frd-page.php on line 5
+[18-Nov-2024 03:00:52 Asia/Dhaka] PHP Warning:  Trying to access array offset on value of type bool in /home/kidsbdsh/public_html/rtd/pages_t_frd.php on line 4
+[18-Nov-2024 03:00:52 Asia/Dhaka] PHP Warning:  Trying to access array offset on value of type bool in /home/kidsbdsh/public_html/rtd/pages_t_frd.php on line 5
+[18-Nov-2024 03:00:52 Asia/Dhaka] PHP Warning:  Trying to access array offset on value of type bool in /home/kidsbdsh/public_html/rtd/pages_t_frd.php on line 6
+[18-Nov-2024 03:00:52 Asia/Dhaka] PHP Warning:  Trying to access array offset on value of type bool in /home/kidsbdsh/public_html/rtd/pages_t_frd.php on line 7
+[18-Nov-2024 03:00:52 Asia/Dhaka] PHP Warning:  Trying to access array offset on value of type bool in /home/kidsbdsh/public_html/rtd/pages_t_frd.php on line 8
+[18-Nov-2024 03:00:52 Asia/Dhaka] PHP Warning:  Trying to access array offset on value of type bool in /home/kidsbdsh/public_html/rtd/pages_t_frd.php on line 9
+[18-Nov-2024 03:00:52 Asia/Dhaka] PHP Warning:  Trying to access array offset on value of type bool in /home/kidsbdsh/public_html/rtd/pages_t_frd.php on line 10
+[18-Nov-2024 11:46:08 Asia/Dhaka] PHP Warning:  Undefined variable $UsrPIC in /home/kidsbdsh/public_html/frd-public/theme/page/mng_login/frd-final-login-reg-script.php on line 126
+[18-Nov-2024 12:17:01 Asia/Dhaka] PHP Warning:  Undefined array key 1 in /home/kidsbdsh/public_html/frd-src/abc/frd-config.php on line 102
+[18-Nov-2024 13:48:11 Asia/Dhaka] PHP Warning:  Undefined variable $UsrPIC in /home/kidsbdsh/public_html/frd-public/theme/page/mng_login/frd-final-login-reg-script.php on line 126
+[18-Nov-2024 13:48:11 Asia/Dhaka] PHP Warning:  Undefined variable $FRc_CT_ItemId in /home/kidsbdsh/public_html/frd-public/theme/page/frd-mix/frd-checkout.php on line 391
+[18-Nov-2024 13:48:11 Asia/Dhaka] PHP Warning:  Undefined variable $FRc_CT_ItemName in /home/kidsbdsh/public_html/frd-public/theme/page/frd-mix/frd-checkout.php on line 392
+[18-Nov-2024 13:48:11 Asia/Dhaka] PHP Warning:  Undefined variable $FRc_CT_ItemCatName in /home/kidsbdsh/public_html/frd-public/theme/page/frd-mix/frd-checkout.php on line 393
+[18-Nov-2024 13:48:11 Asia/Dhaka] PHP Warning:  Undefined variable $FRc_CT_CartItems_C in /home/kidsbdsh/public_html/frd-public/theme/page/frd-mix/frd-checkout.php on line 394
+[18-Nov-2024 13:48:11 Asia/Dhaka] PHP Warning:  Undefined variable $FRc_content_category in /home/kidsbdsh/public_html/frd-public/theme/page/frd-mix/frd-checkout.php on line 544
+[18-Nov-2024 13:48:11 Asia/Dhaka] PHP Warning:  Undefined variable $FRc_Items_C in /home/kidsbdsh/public_html/frd-public/theme/page/frd-mix/frd-checkout.php on line 545
+[18-Nov-2024 13:48:11 Asia/Dhaka] PHP Warning:  Undefined variable $FRc_content_name in /home/kidsbdsh/public_html/frd-public/theme/page/frd-mix/frd-checkout.php on line 546
+[18-Nov-2024 13:48:11 Asia/Dhaka] PHP Warning:  Undefined variable $FRc_content_ids in /home/kidsbdsh/public_html/frd-public/theme/page/frd-mix/frd-checkout.php on line 547
+[18-Nov-2024 13:50:11 Asia/Dhaka] PHP Warning:  Undefined variable $R in /home/kidsbdsh/public_html/frd-public/theme/page/frd-mix/frd-RatingReviewGive.php on line 85
+[18-Nov-2024 13:50:11 Asia/Dhaka] PHP Warning:  Trying to access array offset on value of type null in /home/kidsbdsh/public_html/frd-public/theme/page/frd-mix/frd-RatingReviewGive.php on line 85
+[18-Nov-2024 13:53:23 Asia/Dhaka] PHP Warning:  Undefined variable $FRs_UsrName in /home/kidsbdsh/public_html/frd-public/theme/page/mng_cust/frd-my_profile.php on line 115
+[18-Nov-2024 14:16:14 Asia/Dhaka] PHP Fatal error:  Uncaught TypeError: extract(): Argument #1 ($array) must be of type array, bool given in /home/kidsbdsh/public_html/frd-public/theme/page/frd-pro/frd-product.php:17
+Stack trace:
+#0 /home/kidsbdsh/public_html/frd-public/theme/page/frd-pro/frd-product.php(17): extract()
+#1 /home/kidsbdsh/public_html/frd-public/theme/frd-tpm.php(61): require_once('/home/kidsbdsh/...')
+#2 /home/kidsbdsh/public_html/pm_frd.php(7): require_once('/home/kidsbdsh/...')
+#3 {main}
+  thrown in /home/kidsbdsh/public_html/frd-public/theme/page/frd-pro/frd-product.php on line 17
+[18-Nov-2024 15:59:27 Asia/Dhaka] PHP Fatal error:  Uncaught TypeError: extract(): Argument #1 ($array) must be of type array, bool given in /home/kidsbdsh/public_html/frd-public/theme/page/frd-pro/frd-product.php:17
+Stack trace:
+#0 /home/kidsbdsh/public_html/frd-public/theme/page/frd-pro/frd-product.php(17): extract()
+#1 /home/kidsbdsh/public_html/frd-public/theme/frd-tpm.php(61): require_once('/home/kidsbdsh/...')
+#2 /home/kidsbdsh/public_html/pm_frd.php(7): require_once('/home/kidsbdsh/...')
+#3 {main}
+  thrown in /home/kidsbdsh/public_html/frd-public/theme/page/frd-pro/frd-product.php on line 17
+[18-Nov-2024 18:06:16 Asia/Dhaka] PHP Warning:  Undefined variable $UsrPIC in /home/kidsbdsh/public_html/frd-public/theme/page/mng_login/frd-final-login-reg-script.php on line 126
+[18-Nov-2024 21:53:35 Asia/Dhaka] PHP Fatal error:  Uncaught TypeError: extract(): Argument #1 ($array) must be of type array, bool given in /home/kidsbdsh/public_html/frd-public/theme/page/frd-pro/frd-product.php:17
+Stack trace:
+#0 /home/kidsbdsh/public_html/frd-public/theme/page/frd-pro/frd-product.php(17): extract()
+#1 /home/kidsbdsh/public_html/frd-public/theme/frd-tpm.php(61): require_once('/home/kidsbdsh/...')
+#2 /home/kidsbdsh/public_html/pm_frd.php(7): require_once('/home/kidsbdsh/...')
+#3 {main}
+  thrown in /home/kidsbdsh/public_html/frd-public/theme/page/frd-pro/frd-product.php on line 17
+[18-Nov-2024 21:53:35 Asia/Dhaka] PHP Fatal error:  Uncaught TypeError: extract(): Argument #1 ($array) must be of type array, bool given in /home/kidsbdsh/public_html/frd-public/theme/page/frd-pro/frd-product.php:17
+Stack trace:
+#0 /home/kidsbdsh/public_html/frd-public/theme/page/frd-pro/frd-product.php(17): extract()
+#1 /home/kidsbdsh/public_html/frd-public/theme/frd-tpm.php(61): require_once('/home/kidsbdsh/...')
+#2 /home/kidsbdsh/public_html/pm_frd.php(7): require_once('/home/kidsbdsh/...')
+#3 {main}
+  thrown in /home/kidsbdsh/public_html/frd-public/theme/page/frd-pro/frd-product.php on line 17
+[18-Nov-2024 21:53:35 Asia/Dhaka] PHP Fatal error:  Uncaught TypeError: extract(): Argument #1 ($array) must be of type array, bool given in /home/kidsbdsh/public_html/frd-public/theme/page/frd-pro/frd-product.php:17
+Stack trace:
+#0 /home/kidsbdsh/public_html/frd-public/theme/page/frd-pro/frd-product.php(17): extract()
+#1 /home/kidsbdsh/public_html/frd-public/theme/frd-tpm.php(61): require_once('/home/kidsbdsh/...')
+#2 /home/kidsbdsh/public_html/pm_frd.php(7): require_once('/home/kidsbdsh/...')
+#3 {main}
+  thrown in /home/kidsbdsh/public_html/frd-public/theme/page/frd-pro/frd-product.php on line 17
+[18-Nov-2024 21:53:37 Asia/Dhaka] PHP Fatal error:  Uncaught TypeError: extract(): Argument #1 ($array) must be of type array, bool given in /home/kidsbdsh/public_html/frd-public/theme/page/frd-pro/frd-product.php:17
+Stack trace:
+#0 /home/kidsbdsh/public_html/frd-public/theme/page/frd-pro/frd-product.php(17): extract()
+#1 /home/kidsbdsh/public_html/frd-public/theme/frd-tpm.php(61): require_once('/home/kidsbdsh/...')
+#2 /home/kidsbdsh/public_html/pm_frd.php(7): require_once('/home/kidsbdsh/...')
+#3 {main}
+  thrown in /home/kidsbdsh/public_html/frd-public/theme/page/frd-pro/frd-product.php on line 17
+[18-Nov-2024 21:53:38 Asia/Dhaka] PHP Fatal error:  Uncaught TypeError: extract(): Argument #1 ($array) must be of type array, bool given in /home/kidsbdsh/public_html/frd-public/theme/page/frd-pro/frd-product.php:17
+Stack trace:
+#0 /home/kidsbdsh/public_html/frd-public/theme/page/frd-pro/frd-product.php(17): extract()
+#1 /home/kidsbdsh/public_html/frd-public/theme/frd-tpm.php(61): require_once('/home/kidsbdsh/...')
+#2 /home/kidsbdsh/public_html/pm_frd.php(7): require_once('/home/kidsbdsh/...')
+#3 {main}
+  thrown in /home/kidsbdsh/public_html/frd-public/theme/page/frd-pro/frd-product.php on line 17
+[18-Nov-2024 21:53:38 Asia/Dhaka] PHP Fatal error:  Uncaught TypeError: extract(): Argument #1 ($array) must be of type array, bool given in /home/kidsbdsh/public_html/frd-public/theme/page/frd-pro/frd-product.php:17
+Stack trace:
+#0 /home/kidsbdsh/public_html/frd-public/theme/page/frd-pro/frd-product.php(17): extract()
+#1 /home/kidsbdsh/public_html/frd-public/theme/frd-tpm.php(61): require_once('/home/kidsbdsh/...')
+#2 /home/kidsbdsh/public_html/pm_frd.php(7): require_once('/home/kidsbdsh/...')
+#3 {main}
+  thrown in /home/kidsbdsh/public_html/frd-public/theme/page/frd-pro/frd-product.php on line 17
+[18-Nov-2024 22:22:54 Asia/Dhaka] PHP Warning:  Undefined variable $UsrPIC in /home/kidsbdsh/public_html/frd-public/theme/page/mng_login/frd-final-login-reg-script.php on line 126
+[18-Nov-2024 22:50:09 Asia/Dhaka] PHP Warning:  Undefined array key 1 in /home/kidsbdsh/public_html/frd-public/theme/page/frd-mix/frd-page.php on line 5
+[18-Nov-2024 22:50:09 Asia/Dhaka] PHP Warning:  Trying to access array offset on value of type bool in /home/kidsbdsh/public_html/rtd/pages_t_frd.php on line 4
+[18-Nov-2024 22:50:09 Asia/Dhaka] PHP Warning:  Trying to access array offset on value of type bool in /home/kidsbdsh/public_html/rtd/pages_t_frd.php on line 5
+[18-Nov-2024 22:50:09 Asia/Dhaka] PHP Warning:  Trying to access array offset on value of type bool in /home/kidsbdsh/public_html/rtd/pages_t_frd.php on line 6
+[18-Nov-2024 22:50:09 Asia/Dhaka] PHP Warning:  Trying to access array offset on value of type bool in /home/kidsbdsh/public_html/rtd/pages_t_frd.php on line 7
+[18-Nov-2024 22:50:09 Asia/Dhaka] PHP Warning:  Trying to access array offset on value of type bool in /home/kidsbdsh/public_html/rtd/pages_t_frd.php on line 8
+[18-Nov-2024 22:50:09 Asia/Dhaka] PHP Warning:  Trying to access array offset on value of type bool in /home/kidsbdsh/public_html/rtd/pages_t_frd.php on line 9
+[18-Nov-2024 22:50:09 Asia/Dhaka] PHP Warning:  Trying to access array offset on value of type bool in /home/kidsbdsh/public_html/rtd/pages_t_frd.php on line 10
+[19-Nov-2024 00:13:21 Asia/Dhaka] PHP Warning:  Undefined array key 1 in /home/kidsbdsh/public_html/frd-public/theme/page/frd-mix/frd-OrderTrack.php on line 2
+[19-Nov-2024 06:07:38 Asia/Dhaka] PHP Fatal error:  Uncaught TypeError: extract(): Argument #1 ($array) must be of type array, bool given in /home/kidsbdsh/public_html/frd-public/theme/page/frd-pro/frd-product.php:17
+Stack trace:
+#0 /home/kidsbdsh/public_html/frd-public/theme/page/frd-pro/frd-product.php(17): extract()
+#1 /home/kidsbdsh/public_html/frd-public/theme/frd-tpm.php(61): require_once('/home/kidsbdsh/...')
+#2 /home/kidsbdsh/public_html/pm_frd.php(7): require_once('/home/kidsbdsh/...')
+#3 {main}
+  thrown in /home/kidsbdsh/public_html/frd-public/theme/page/frd-pro/frd-product.php on line 17
+[19-Nov-2024 06:07:50 Asia/Dhaka] PHP Fatal error:  Uncaught TypeError: extract(): Argument #1 ($array) must be of type array, bool given in /home/kidsbdsh/public_html/frd-public/theme/page/frd-pro/frd-product.php:17
+Stack trace:
+#0 /home/kidsbdsh/public_html/frd-public/theme/page/frd-pro/frd-product.php(17): extract()
+#1 /home/kidsbdsh/public_html/frd-public/theme/frd-tpm.php(61): require_once('/home/kidsbdsh/...')
+#2 /home/kidsbdsh/public_html/pm_frd.php(7): require_once('/home/kidsbdsh/...')
+#3 {main}
+  thrown in /home/kidsbdsh/public_html/frd-public/theme/page/frd-pro/frd-product.php on line 17
+[19-Nov-2024 13:47:37 Asia/Dhaka] PHP Warning:  Undefined array key "cart_price" in /home/kidsbdsh/public_html/frd-public/theme/page/frd-mix/frd-checkout.php on line 76
+[19-Nov-2024 13:47:37 Asia/Dhaka] PHP Warning:  Undefined array key "cart_price" in /home/kidsbdsh/public_html/frd-public/theme/page/frd-mix/frd-checkout.php on line 149
+[19-Nov-2024 13:47:37 Asia/Dhaka] PHP Warning:  Undefined array key "cart_price" in /home/kidsbdsh/public_html/frd-public/theme/page/frd-mix/frd-checkout.php on line 338
+[19-Nov-2024 13:47:37 Asia/Dhaka] PHP Warning:  Undefined array key "cart_price" in /home/kidsbdsh/public_html/frd-public/theme/page/frd-mix/frd-checkout.php on line 352
+[19-Nov-2024 13:47:37 Asia/Dhaka] PHP Warning:  Undefined array key "cart_price" in /home/kidsbdsh/public_html/frd-public/theme/page/frd-mix/frd-checkout.php on line 494
+[19-Nov-2024 13:47:37 Asia/Dhaka] PHP Warning:  Undefined array key "cart_price" in /home/kidsbdsh/public_html/frd-public/theme/page/frd-mix/frd-checkout.php on line 588
+[19-Nov-2024 14:23:16 Asia/Dhaka] PHP Fatal error:  Uncaught TypeError: extract(): Argument #1 ($array) must be of type array, bool given in /home/kidsbdsh/public_html/frd-public/theme/page/frd-pro/frd-product.php:17
+Stack trace:
+#0 /home/kidsbdsh/public_html/frd-public/theme/page/frd-pro/frd-product.php(17): extract()
+#1 /home/kidsbdsh/public_html/frd-public/theme/frd-tpm.php(61): require_once('/home/kidsbdsh/...')
+#2 /home/kidsbdsh/public_html/pm_frd.php(7): require_once('/home/kidsbdsh/...')
+#3 {main}
+  thrown in /home/kidsbdsh/public_html/frd-public/theme/page/frd-pro/frd-product.php on line 17
+[19-Nov-2024 14:23:16 Asia/Dhaka] PHP Fatal error:  Uncaught TypeError: extract(): Argument #1 ($array) must be of type array, bool given in /home/kidsbdsh/public_html/frd-public/theme/page/frd-pro/frd-product.php:17
+Stack trace:
+#0 /home/kidsbdsh/public_html/frd-public/theme/page/frd-pro/frd-product.php(17): extract()
+#1 /home/kidsbdsh/public_html/frd-public/theme/frd-tpm.php(61): require_once('/home/kidsbdsh/...')
+#2 /home/kidsbdsh/public_html/pm_frd.php(7): require_once('/home/kidsbdsh/...')
+#3 {main}
+  thrown in /home/kidsbdsh/public_html/frd-public/theme/page/frd-pro/frd-product.php on line 17
+[19-Nov-2024 14:26:10 Asia/Dhaka] PHP Fatal error:  Uncaught TypeError: extract(): Argument #1 ($array) must be of type array, bool given in /home/kidsbdsh/public_html/frd-public/theme/page/frd-pro/frd-product.php:17
+Stack trace:
+#0 /home/kidsbdsh/public_html/frd-public/theme/page/frd-pro/frd-product.php(17): extract()
+#1 /home/kidsbdsh/public_html/frd-public/theme/frd-tpm.php(61): require_once('/home/kidsbdsh/...')
+#2 /home/kidsbdsh/public_html/pm_frd.php(7): require_once('/home/kidsbdsh/...')
+#3 {main}
+  thrown in /home/kidsbdsh/public_html/frd-public/theme/page/frd-pro/frd-product.php on line 17
+[19-Nov-2024 14:26:19 Asia/Dhaka] PHP Fatal error:  Uncaught TypeError: extract(): Argument #1 ($array) must be of type array, bool given in /home/kidsbdsh/public_html/frd-public/theme/page/frd-pro/frd-product.php:17
+Stack trace:
+#0 /home/kidsbdsh/public_html/frd-public/theme/page/frd-pro/frd-product.php(17): extract()
+#1 /home/kidsbdsh/public_html/frd-public/theme/frd-tpm.php(61): require_once('/home/kidsbdsh/...')
+#2 /home/kidsbdsh/public_html/pm_frd.php(7): require_once('/home/kidsbdsh/...')
+#3 {main}
+  thrown in /home/kidsbdsh/public_html/frd-public/theme/page/frd-pro/frd-product.php on line 17
+[19-Nov-2024 14:26:39 Asia/Dhaka] PHP Fatal error:  Uncaught TypeError: extract(): Argument #1 ($array) must be of type array, bool given in /home/kidsbdsh/public_html/frd-public/theme/page/frd-pro/frd-product.php:17
+Stack trace:
+#0 /home/kidsbdsh/public_html/frd-public/theme/page/frd-pro/frd-product.php(17): extract()
+#1 /home/kidsbdsh/public_html/frd-public/theme/frd-tpm.php(61): require_once('/home/kidsbdsh/...')
+#2 /home/kidsbdsh/public_html/pm_frd.php(7): require_once('/home/kidsbdsh/...')
+#3 {main}
+  thrown in /home/kidsbdsh/public_html/frd-public/theme/page/frd-pro/frd-product.php on line 17
+[19-Nov-2024 20:50:22 Asia/Dhaka] PHP Warning:  Undefined array key 1 in /home/kidsbdsh/public_html/frd-public/theme/page/frd-mix/frd-OrderTrack.php on line 597
+[19-Nov-2024 20:50:22 Asia/Dhaka] PHP Warning:  Undefined array key 1 in /home/kidsbdsh/public_html/frd-public/theme/page/frd-mix/frd-OrderTrack.php on line 597
+[19-Nov-2024 23:39:46 Asia/Dhaka] PHP Warning:  Undefined variable $UsrPIC in /home/kidsbdsh/public_html/frd-public/theme/page/mng_login/frd-final-login-reg-script.php on line 126
+[20-Nov-2024 03:24:58 Asia/Dhaka] PHP Warning:  Undefined variable $UsrPIC in /home/kidsbdsh/public_html/frd-public/theme/page/mng_login/frd-final-login-reg-script.php on line 126
+[20-Nov-2024 04:30:43 Asia/Dhaka] PHP Fatal error:  Uncaught TypeError: extract(): Argument #1 ($array) must be of type array, bool given in /home/kidsbdsh/public_html/frd-public/theme/page/frd-pro/frd-product.php:17
+Stack trace:
+#0 /home/kidsbdsh/public_html/frd-public/theme/page/frd-pro/frd-product.php(17): extract()
+#1 /home/kidsbdsh/public_html/frd-public/theme/frd-tpm.php(61): require_once('/home/kidsbdsh/...')
+#2 /home/kidsbdsh/public_html/pm_frd.php(7): require_once('/home/kidsbdsh/...')
+#3 {main}
+  thrown in /home/kidsbdsh/public_html/frd-public/theme/page/frd-pro/frd-product.php on line 17
+[20-Nov-2024 10:48:28 Asia/Dhaka] PHP Warning:  Undefined variable $UsrPIC in /home/kidsbdsh/public_html/frd-public/theme/page/mng_login/frd-final-login-reg-script.php on line 126
+[20-Nov-2024 12:47:54 Asia/Dhaka] PHP Warning:  Undefined array key 1 in /home/kidsbdsh/public_html/frd-public/theme/page/frd-mix/frd-OrderTrack.php on line 2
+[21-Nov-2024 11:53:52 Asia/Dhaka] PHP Fatal error:  Uncaught TypeError: extract(): Argument #1 ($array) must be of type array, bool given in /home/kidsbdsh/public_html/frd-public/theme/page/frd-pro/frd-product.php:17
+Stack trace:
+#0 /home/kidsbdsh/public_html/frd-public/theme/page/frd-pro/frd-product.php(17): extract()
+#1 /home/kidsbdsh/public_html/frd-public/theme/frd-tpm.php(61): require_once('/home/kidsbdsh/...')
+#2 /home/kidsbdsh/public_html/pm_frd.php(7): require_once('/home/kidsbdsh/...')
+#3 {main}
+  thrown in /home/kidsbdsh/public_html/frd-public/theme/page/frd-pro/frd-product.php on line 17
+[21-Nov-2024 11:53:52 Asia/Dhaka] PHP Fatal error:  Uncaught TypeError: extract(): Argument #1 ($array) must be of type array, bool given in /home/kidsbdsh/public_html/frd-public/theme/page/frd-pro/frd-product.php:17
+Stack trace:
+#0 /home/kidsbdsh/public_html/frd-public/theme/page/frd-pro/frd-product.php(17): extract()
+#1 /home/kidsbdsh/public_html/frd-public/theme/frd-tpm.php(61): require_once('/home/kidsbdsh/...')
+#2 /home/kidsbdsh/public_html/pm_frd.php(7): require_once('/home/kidsbdsh/...')
+#3 {main}
+  thrown in /home/kidsbdsh/public_html/frd-public/theme/page/frd-pro/frd-product.php on line 17
+[21-Nov-2024 13:06:25 Asia/Dhaka] PHP Fatal error:  Uncaught TypeError: extract(): Argument #1 ($array) must be of type array, bool given in /home/kidsbdsh/public_html/frd-public/theme/page/frd-pro/frd-product.php:17
+Stack trace:
+#0 /home/kidsbdsh/public_html/frd-public/theme/page/frd-pro/frd-product.php(17): extract()
+#1 /home/kidsbdsh/public_html/frd-public/theme/frd-tpm.php(61): require_once('/home/kidsbdsh/...')
+#2 /home/kidsbdsh/public_html/pm_frd.php(7): require_once('/home/kidsbdsh/...')
+#3 {main}
+  thrown in /home/kidsbdsh/public_html/frd-public/theme/page/frd-pro/frd-product.php on line 17
+[21-Nov-2024 14:05:57 Asia/Dhaka] PHP Warning:  Undefined variable $frd_productname in /home/kidsbdsh/public_html/frd-public/theme/page/frd-mix/frd-search.php on line 108
+[21-Nov-2024 14:05:57 Asia/Dhaka] PHP Warning:  Undefined variable $frd_productname in /home/kidsbdsh/public_html/frd-public/theme/page/frd-mix/frd-search.php on line 163
+[21-Nov-2024 16:18:44 Asia/Dhaka] PHP Fatal error:  Uncaught TypeError: extract(): Argument #1 ($array) must be of type array, bool given in /home/kidsbdsh/public_html/frd-public/theme/page/frd-pro/frd-product.php:17
+Stack trace:
+#0 /home/kidsbdsh/public_html/frd-public/theme/page/frd-pro/frd-product.php(17): extract()
+#1 /home/kidsbdsh/public_html/frd-public/theme/frd-tpm.php(61): require_once('/home/kidsbdsh/...')
+#2 /home/kidsbdsh/public_html/pm_frd.php(7): require_once('/home/kidsbdsh/...')
+#3 {main}
+  thrown in /home/kidsbdsh/public_html/frd-public/theme/page/frd-pro/frd-product.php on line 17
+[22-Nov-2024 16:06:53 Asia/Dhaka] PHP Warning:  Undefined array key 1 in /home/kidsbdsh/public_html/frd-public/theme/page/frd-mix/frd-OrderTrack.php on line 2
+[22-Nov-2024 21:54:39 Asia/Dhaka] PHP Warning:  Undefined array key 1 in /home/kidsbdsh/public_html/frd-public/theme/page/frd-mix/frd-OrderTrack.php on line 2
+[22-Nov-2024 21:54:43 Asia/Dhaka] PHP Warning:  Undefined array key 1 in /home/kidsbdsh/public_html/frd-public/theme/page/frd-mix/frd-OrderTrack.php on line 2
+[23-Nov-2024 00:02:19 Asia/Dhaka] PHP Fatal error:  Uncaught TypeError: extract(): Argument #1 ($array) must be of type array, bool given in /home/kidsbdsh/public_html/frd-public/theme/page/frd-pro/frd-product.php:17
+Stack trace:
+#0 /home/kidsbdsh/public_html/frd-public/theme/page/frd-pro/frd-product.php(17): extract()
+#1 /home/kidsbdsh/public_html/frd-public/theme/frd-tpm.php(61): require_once('/home/kidsbdsh/...')
+#2 /home/kidsbdsh/public_html/pm_frd.php(7): require_once('/home/kidsbdsh/...')
+#3 {main}
+  thrown in /home/kidsbdsh/public_html/frd-public/theme/page/frd-pro/frd-product.php on line 17
+[23-Nov-2024 00:38:47 Asia/Dhaka] PHP Fatal error:  Uncaught TypeError: extract(): Argument #1 ($array) must be of type array, bool given in /home/kidsbdsh/public_html/frd-public/theme/page/frd-pro/frd-product.php:17
+Stack trace:
+#0 /home/kidsbdsh/public_html/frd-public/theme/page/frd-pro/frd-product.php(17): extract()
+#1 /home/kidsbdsh/public_html/frd-public/theme/frd-tpm.php(61): require_once('/home/kidsbdsh/...')
+#2 /home/kidsbdsh/public_html/pm_frd.php(7): require_once('/home/kidsbdsh/...')
+#3 {main}
+  thrown in /home/kidsbdsh/public_html/frd-public/theme/page/frd-pro/frd-product.php on line 17
+[23-Nov-2024 00:41:11 Asia/Dhaka] PHP Fatal error:  Uncaught TypeError: extract(): Argument #1 ($array) must be of type array, bool given in /home/kidsbdsh/public_html/frd-public/theme/page/frd-pro/frd-product.php:17
+Stack trace:
+#0 /home/kidsbdsh/public_html/frd-public/theme/page/frd-pro/frd-product.php(17): extract()
+#1 /home/kidsbdsh/public_html/frd-public/theme/frd-tpm.php(61): require_once('/home/kidsbdsh/...')
+#2 /home/kidsbdsh/public_html/pm_frd.php(7): require_once('/home/kidsbdsh/...')
+#3 {main}
+  thrown in /home/kidsbdsh/public_html/frd-public/theme/page/frd-pro/frd-product.php on line 17
+[23-Nov-2024 00:41:38 Asia/Dhaka] PHP Fatal error:  Uncaught TypeError: extract(): Argument #1 ($array) must be of type array, bool given in /home/kidsbdsh/public_html/frd-public/theme/page/frd-pro/frd-product.php:17
+Stack trace:
+#0 /home/kidsbdsh/public_html/frd-public/theme/page/frd-pro/frd-product.php(17): extract()
+#1 /home/kidsbdsh/public_html/frd-public/theme/frd-tpm.php(61): require_once('/home/kidsbdsh/...')
+#2 /home/kidsbdsh/public_html/pm_frd.php(7): require_once('/home/kidsbdsh/...')
+#3 {main}
+  thrown in /home/kidsbdsh/public_html/frd-public/theme/page/frd-pro/frd-product.php on line 17
+[23-Nov-2024 02:15:46 Asia/Dhaka] PHP Fatal error:  Uncaught TypeError: extract(): Argument #1 ($array) must be of type array, bool given in /home/kidsbdsh/public_html/frd-public/theme/page/frd-pro/frd-product.php:17
+Stack trace:
+#0 /home/kidsbdsh/public_html/frd-public/theme/page/frd-pro/frd-product.php(17): extract()
+#1 /home/kidsbdsh/public_html/frd-public/theme/frd-tpm.php(61): require_once('/home/kidsbdsh/...')
+#2 /home/kidsbdsh/public_html/pm_frd.php(7): require_once('/home/kidsbdsh/...')
+#3 {main}
+  thrown in /home/kidsbdsh/public_html/frd-public/theme/page/frd-pro/frd-product.php on line 17

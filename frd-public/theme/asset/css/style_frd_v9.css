@@ -1,0 +1,517 @@
+
+/*****************************************************************/
+/*  others-fc S */
+/*****************************************************************/
+.alertt{
+    text-align: center;
+    animation: pip_pip 1s 6;
+}
+.PipPip1s{
+    animation: pip_pip 1s 20;
+}
+/*FRE COLOR */
+.g{
+    color: darkgreen;
+}
+.g2{
+    color: #39B87C;
+}
+.r{
+    color: brown;
+}
+.y{
+    color: yellow;
+}
+.cddd{
+    color: #ddd;
+}
+.fff{
+    color: #fff;
+}
+
+.c555{
+    color: #555;
+}
+.pointer{
+    cursor: pointer;
+}
+.c_na{
+    cursor: not-allowed;
+}
+/*--*/
+.boldd{
+    font-weight: bold;
+}
+/* FRD FONT SIZE*/
+.frd_1em{
+  font-size: 1.5em;  
+}
+.frd_2em{
+  font-size: 2.5em;  
+}
+a.frd_tdn{
+    text-decoration: none;
+}
+/*FRD BACKGROUND */
+.bg_d{
+    background: #ddd;
+}
+.bg_3{
+    background: #333;
+}
+/*FRD BORDERS */
+.bo_cb_3px{
+    border: 3px brown solid;
+}
+/* FRD PADDING */
+.pad_10px{
+    padding: 10px;
+}
+/* FRD HR */
+ hr.hr_6px_c2{
+    border: 6px dashed #222;
+ }
+/* FRD TEXT ALIGN*/
+.fr_justify{
+    text-align: justify;
+    text-align: 
+}
+.TAL{
+    text-align: left;
+}
+.TAC{
+    text-align: center;
+}
+.TAR{
+    text-align: right;
+}
+/*  */
+.fr_italic{
+    font-style: italic;
+}
+
+
+
+
+
+
+
+
+
+
+
+/******************************************************************/
+/* all-img-fc s */
+/******************************************************************/
+img#marterloding{
+    width: 100px;
+    height: 100px;
+    margin: auto !important!;   
+}
+/******************************************************************/
+
+
+
+
+
+
+/*****************************************************************/
+/*  boxinfo S */
+/*****************************************************************/
+    .boxinfo{
+        background: #129b5d;
+        background: brown;
+        color: #ddd;
+        padding: 10px;
+        text-align: center;
+        border-radius: 5px;
+        margin-bottom: 20px;
+    }
+    .boxinfo:hover{
+        background: #209c79;
+        cursor: pointer;
+    }
+    .boxinfo h4{
+        font-size: 1.5em;
+    }
+    .boxinfo h5{
+        font-size: 3em;
+    }
+
+
+
+
+
+
+
+
+
+/******************************************************************/
+/* FORMS NUMBER 1 START  */
+/******************************************************************/
+/*** f1 */
+form#f1 input[type="number"],form#f1 input[type="text"], form#f1 input[type="password"],form#f1 input[type="email"],form#f1 select{
+        margin-bottom: 20px;
+        background: #ddd;
+        border: none;
+        padding: 0px;
+        font-size: 1.5em;
+        height: 35px;
+        color: #222;
+        padding-left: 5px;
+       width: 100%;
+       display: inline-block;
+    }
+
+form#f1 input[type="checkbox"]{
+      -ms-transform: scale(2); /* IE */
+     -moz-transform: scale(2); /* FF */
+     -webkit-transform: scale(2); /* Safari and Chrome */
+     -o-transform: scale(2); /* Opera */
+      padding: 10px;
+      margin: 10px;
+       
+    }
+form#f1 input[type="file"]{
+        margin-bottom: 20px;
+        border: none;
+        padding: 0px;
+        font-size: 1.5em;
+        height: 35px;
+        color: #222;
+        padding-left: 5px;
+}
+form#f1 input[type="radio"]{
+     margin-left: 50px;
+    cursor: pointer;
+}
+form#f1 textarea{
+     width: 100%;
+    height: 150px;
+    background: #ddd;
+    padding: 10px;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    margin-bottom: 10px;
+}
+form#f1 select{
+   
+}
+form#f1 select:hover{
+   cursor: pointer;
+}
+form#f1 input[type="submit"]{
+        background: rgba( 136, 16, 16, 0.392 );
+        color: #ddd;
+        text-align: center;
+        font-weight: bold;
+        width: 100%;
+       font-size: 2em;
+        border: none;
+        border-radius: 5px;
+       margin-top: 10px;
+    }
+form#f1 input[type="submit"]:hover{
+        background: #166e59;
+    }
+form#f1 span{
+       font-style: italic;   
+        font-size: 1.2em;
+    }
+
+
+
+
+
+
+
+/******************************************************/
+/* FORM 2 START */
+/******************************************************/
+  form.f2 h4{
+        text-align: center;
+        font-weight: bolder;
+        border-bottom: 1px #ddd solid;
+        font-size: 1.5em;
+        text-transform: uppercase;
+        padding-bottom: 10px;
+    }    
+
+    form.f2{
+        border: 2px #333 solid;
+        padding: 10px;
+        border-radius: 10px;
+    }
+     form.f2 table{     
+       width: 100% !important;
+    } 
+    form.f2 table tr td{     
+       padding-bottom: 10px !important;
+    } 
+    form.f2 table tr td:first-child{
+        text-align: right;
+        padding-right: 20px;
+    }
+    form.f2 button[type="submit"]{
+        
+    }
+    form.f2 button[type="submit"]:hover{
+        
+    }
+
+
+
+
+
+
+
+
+
+
+
+/****************************************************************/
+/* big-btn s */
+/****************************************************************/
+   .bigbtn{
+      background: #444;
+      border-radius: 10px; 
+       text-align: center;
+       padding: 10px;
+       margin-bottom: 20px;
+    }
+    .bigbtn:hover{
+      background: brown;
+    }
+    .bigbtn a{
+      text-decoration: none;  
+      color: #ddd; 
+    }
+    .bigbtn h5{  
+      font-size: 1.3em;    
+    }
+    .bigbtn img{
+      width: 50px;
+      height: 50px;
+      margin: auto;    
+    }
+
+
+
+
+
+
+/**************************************************************/
+/* all-table s */
+/**************************************************************/
+table.t1{ 
+   background: #fff;
+   color: #222;
+   width: 100%;
+    
+}
+table.t1 tr td{
+   border: none;
+   border-bottom: 1px solid #999; 
+   border: 1px solid #999;
+  padding: 5px; 
+}
+table.t1 .TH{ 
+  background: #333;
+    font-weight: bolder;
+    color: #fff;
+}
+table.t1 .TF{
+  background: #333;
+  font-weight: bolder;
+}
+img#t1_img{
+  width: 100px !important;
+  height: 100px !important;    
+}
+
+
+
+
+
+
+
+/**************************************************************/
+/* keyframe s */
+/**************************************************************/
+/*pip_pip*/
+@keyframes pip_pip{
+	50%{opacity:0.0;},
+	100%{opacity:1;},
+}
+
+/**************************************************************/
+/* FRD AMIMATION CLASS */
+/**************************************************************/
+.pip_pip_1s{
+    animation: pip_pip 1s infinite;
+}
+
+
+
+
+
+
+/*******************************************************************************/
+/* FRD PAGE LODE MASSAGE */
+/*******************************************************************************/
+.frPLmass{
+    color: green;
+    width: 100% !important;
+    display: block;
+    overflow: hidden;
+}
+
+
+/*******************************************************************************/
+/* FRD DEVICE DETECTING IMG */
+/*******************************************************************************/
+img#dd{
+    margin: auto;
+    display: block;
+    animation: zoomIn 2s 6;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*********************************************************************************/
+/*FRD POPUP MESSAGE 1 */
+/*********************************************************************************/
+      #FR_POP_MESS_1{
+        height:400px;
+        width:400px;
+        position:fixed;
+        top:20%;
+        left:30%;
+        box-shadow: 0px 0px 5px 0px brown;
+        padding:10px;
+        background:#ddd;
+        border-radius:10px;
+    }
+    #FR_POP_MESS_1_cbtn{
+        right:5;
+        top:5;
+        float:right;
+        cursor: pointer;
+    }
+    #FR_POP_MESS_1_cbtn:hover{
+        background: brown;
+        color: #FFF;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------------------------------- ANIMATION ----------------------------------------- */
+
+/**********************************************************/
+/* FRD ANIMATION */
+/* FRD DIV ANIMATION 1 */
+/**********************************************************/
+.frd_div_ani_1 {
+    position: relative;
+    overflow: hidden;
+    transition: 0.5s;
+    /*ADITIONAL*/
+    padding: 30px 60px;
+/*    box-shadow: 0px 0px 9px 6px green;*/
+}
+.frd_div_ani_1 span.d_b_1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 6px;
+    background: linear-gradient(to right, #008AFF, #4BE259);
+    animation: animate1 9s linear infinite;
+}
+
+@keyframes animate1 {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+.frd_div_ani_1 span.d_b_2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 6px;
+    height: 100%;
+    background: linear-gradient(to bottom, #008AFF, #4BE259);
+    animation: animate2 9s linear infinite;
+    animation-delay: 1s;
+}
+
+@keyframes animate2 {
+    0% {
+        transform: translateY(-100%);
+    }
+    100% {
+        transform: translateY(100%);
+    }
+}
+
+.frd_div_ani_1 span.d_b_3 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 6px;
+    background: linear-gradient(to left, #008AFF, #4BE259);
+    animation: animate3 9s linear infinite;
+}
+
+@keyframes animate3 {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+.frd_div_ani_1 span.d_b_4 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 6px;
+    height: 100%;
+    background: linear-gradient(to top, #008AFF, #4BE259);
+    animation: animate4 9s linear infinite;
+    animation-delay: 1s;
+}
+
+@keyframes animate4 {
+    0% {
+        transform: translateY(100%);
+    }
+    100% {
+        transform: translateY(-100%);
+    }
+}

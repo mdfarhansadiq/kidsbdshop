@@ -1,0 +1,23 @@
+body{
+    padding: 0;
+    width: 600px;
+    margin: auto;
+    margin-top: 10px;
+    font-family: 'SolaimanLipi';
+}
+/**************************************************************/
+/* view single order details s */
+/**************************************************************/
+img#invoice_bandlogu{
+       width: 100px;
+       height: 50px;
+       margin: auto;  
+}
+/**/
+table.table1{
+    width: 100%;
+}
+/**/
+.frs_label img{
+    
+}

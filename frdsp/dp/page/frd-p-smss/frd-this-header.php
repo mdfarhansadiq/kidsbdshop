@@ -1,0 +1,2 @@
+<?php
+$FRc_THIS_P_ID = 25;//THIS PANEL ID [25=SMS SERVICES]

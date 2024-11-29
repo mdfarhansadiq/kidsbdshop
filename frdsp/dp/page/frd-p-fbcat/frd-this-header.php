@@ -1,0 +1,3 @@
+<?php
+$FRc_THIS_P_ID = 29;//THIS PANEL ID
+$FR_PLUGIN_VERSION = 2;

@@ -1,0 +1,77 @@
+
+@media (max-width: 991px){
+    #LiveClock_FRD{
+      display: none;
+    }
+}
+
+
+#LiveClock_FRD{
+  background: #000;
+}
+
+#LiveClock_FRD a{
+  text-decoration: none;
+}
+
+#LiveClock_FRD a:visited{
+  color: #555;
+}
+#LiveClock_FRD a:hover{
+  color:#222;
+}
+#LiveClock_FRD button {
+  background: #000;
+  color: #FFF;
+  text-transform: uppercase;
+  width: 200px;
+  height: 10px;
+  border: none;
+  text-align: center !importrant;
+    outline: none;
+float: right;
+ 
+}
+
+#LiveClock_FRD button:hover {
+  color: #444;
+  transition: color .5s;
+  cursor: pointer;
+}
+#LiveClock_FRD #time {
+  font-size: 5em;
+  margin-top: 10px;
+  padding-bottom: 10px;    
+}
+
+#LiveClock_FRD #date {
+  font-size: 2em;
+  text-align: center;
+  color: #555;    
+}
+#LiveClock_FRD ul {
+  font-size: 1.5em;
+  color: #333;
+   text-align: center;    
+}
+#LiveClock_FRD ul li{
+  margin: 1em;
+  display: inline-block;
+}
+#LiveClock_FRD .glow {
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e50022, 0 0 40px #e50022, 0 0 50px #e50022, 0 0 60px #e50022, 0 0 70px #e50022;
+  }
+
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #e20000, 0 0 40px #e20000, 0 0 50px #e20000, 0 0 60px #e20000, 0 0 70px #e20000, 0 0 80px #e20000;
+  }
+}

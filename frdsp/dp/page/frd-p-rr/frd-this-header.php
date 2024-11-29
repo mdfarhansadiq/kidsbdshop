@@ -1,0 +1,2 @@
+<?php
+$FRc_THIS_P_ID = 4;//THIS PANEL ID [4=RARING REVIEW]

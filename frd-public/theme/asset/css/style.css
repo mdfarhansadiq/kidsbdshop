@@ -1,0 +1,1999 @@
+/*
+FRD FRONT THEME STYLE
+*/
+html {
+  height: 100%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+body {
+  background: #fff;
+  overflow-x: hidden;
+  margin: 0 !important;
+  padding: 0 !important;
+  font-family: "SolaimanLipi";
+}
+@media (max-width: 768px) {
+  body {
+    /* margin-top: 60px !important; */
+  }
+}
+@media screen and (max-width: 991px) {
+  body {
+  }
+}
+
+/******************************************************************/
+/*FRD MIXD TYTPO  */
+/******************************************************************/
+a.fr-text-deco-none {
+  text-decoration: none !important;
+}
+@media (max-width: 768px) {
+  .xs_disp_none {
+    display: none !important;
+  }
+}
+@media (min-width: 991px) {
+  .md_disp_none {
+    display: none !important;
+  }
+}
+.frd_dn {
+  display: none;
+}
+
+.fr-mt-5 {
+  margin-top: 5px;
+}
+.fr-mt-10 {
+  margin-top: 10px;
+}
+.fr-mt-15 {
+  margin-top: 15px;
+}
+
+.fr-mb-5 {
+  margin-bottom: 5px;
+}
+.fr-mb-10 {
+  margin-bottom: 10px;
+}
+.fr-mb-15 {
+  margin-bottom: 15px;
+}
+
+.fr-p-10 {
+  padding: 10px;
+}
+
+/*********************************************************************/
+/*FRD MARQUE HEADLINE STYLE*/
+/*********************************************************************/
+@media screen {
+  @media only screen and (min-width: 991px) {
+    .frs_headline table td.td1 {
+      width: 6% !important;
+    }
+  }
+}
+.xs.frs_headline {
+  padding: 5px;
+  background: #ffffff;
+}
+.xs.frs_headline table {
+  background-color: #ffffff;
+  width: 100%;
+}
+.xs.frs_headline table td.td1 {
+  background: #111;
+  color: #fff;
+  font-weight: bold;
+  font-size: 12px;
+  padding: 3px;
+  width: 23%;
+}
+.xs.frs_headline table td.td2 {
+  font-size: 12px;
+  padding-top: 6px;
+  width: 80%;
+}
+
+/**************************************************************/
+/* RIGHT SIDENAV CART | FRD SHOPPING CART | CART-CART-1 */
+/**************************************************************/
+#mySidenav_right {
+  z-index: 9999;
+  margin-top: 0px;
+  border: none !important;
+  background: #dddddd;
+}
+.frcart1 .frlogo_div {
+  background: none;
+}
+.frcart1 .frlogo_div img#frlogo {
+  padding: 10px;
+}
+.frcart1 .cart_items img.frcartempty {
+  padding: 30px;
+  border-radius: 10px !important;
+}
+.frcart1 {
+  margin-top: -30px;
+}
+table.carthead {
+  width: 100%;
+}
+.sidenav_right .cart_title,
+.sidenav_right .cart_title small {
+  color: #111111;
+}
+.sidenav_right .btn_cartclose {
+  border: none !important;
+  background: #111111;
+  color: #ffffff;
+  padding: 6px;
+  border: none;
+}
+.sidenav_right .btn_cartclose:hover {
+  transform: scale(1.1);
+}
+
+.btn_chackout {
+  border: none;
+  font-size: 18px;
+  color: #ffffff;
+  background: #111111;
+  width: 100%;
+  padding: 2px;
+}
+.btn_chackout:hover {
+  transform: scale(1.1);
+}
+
+.frcart1 .cart_items {
+  background: #dddddd;
+  padding-bottom: 10px;
+}
+.frcart1 .t_cartt {
+  width: 100%;
+}
+.frcart1 .t_cartt tr td {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.frcart1 img.item-img {
+  width: 60px;
+  height: 60px;
+}
+.frcart1 .item_title {
+  color: #111111;
+}
+.frcart1 .price {
+  color: #111111;
+}
+.frcart1 .cpro_qty {
+  color: #111111;
+}
+.pro_qtyup_btn,
+.pro_qtydown_btn {
+  cursor: pointer;
+  font-size: 11px;
+  font-weight: normal;
+  color: #111111;
+}
+.pro_qtyup_btn:hover,
+.pro_qtydown_btn:hover {
+  transform: scale(1.1);
+}
+
+.t_cartt .btn_proremove {
+  border: none;
+  height: 30px;
+  background: none;
+  font-size: 10px;
+  color: #111111;
+}
+.t_cartt .btn_proremove:hover {
+  transform: scale(1.2);
+}
+
+/*****************************************/
+/*CART ITEM LIST 2*/
+/*****************************************/
+.CartItemList2 table {
+  width: 100%;
+}
+.CartItemList2 table tr td {
+  border: 1px solid #333333;
+  padding: 3px;
+}
+.CartItemList2 table a {
+  color: #111111;
+}
+.CartItemList2 table span.btn_proremove {
+  border: none;
+  display: inline-block;
+  text-align: center;
+  font-size: 10px;
+  color: #222222 !important;
+}
+.CartItemList2 table span.btn_proremove:hover {
+  transform: scale(1.2);
+  color: red !important;
+}
+
+.CartItemList2 table span.pro_qtyup_btn,
+.CartItemList2 table span.pro_qtydown_btn {
+  border: none;
+  display: inline-block;
+  text-align: center;
+  color: #111111 !important;
+  font-size: 15px;
+}
+
+/***********************************************************************/
+/* SIDE-NAV-1 DEFAULT || LEFT SIDE NAVE  */
+/***********************************************************************/
+.frs_sn1 a.logolink {
+  background: #dddddd;
+  padding: 10px;
+}
+.frs_sn1 .frclosebtn {
+  background: #111111;
+  color: #ffffff;
+  border: none;
+}
+.frs_sn1 div.snsl a {
+  display: block;
+  margin-bottom: 2px;
+  padding: 6px;
+  font-weight: bolder;
+  color: #222;
+  text-decoration: none;
+}
+.frs_sn1 div.snsl a:hover {
+  padding-left: 9px;
+  background: #ddd;
+}
+.frLeftSideNaveMob {
+  background: #ffffff;
+  height: 100%;
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  transition: 0.5s;
+  width: 0px;
+}
+
+/******************************************************************/
+/*FRD SINGLE PRODUCT PAGE STYELE  */
+/*FRD LANDING PAGE STYELE  */
+/******************************************************************/
+.rcsp_1 a {
+  font-size: 16px;
+  color: #000;
+}
+.rcsp_2 a {
+  font-size: 10px;
+  color: #222;
+}
+.rcsp_3 a {
+  font-size: 8px;
+  color: #444;
+}
+.rcsp_4 a {
+  font-size: 6px;
+  color: #666;
+}
+
+.frbdiv_aktu_poray_dakhun {
+  text-align: center;
+}
+.frbdiv_aktu_poray_dakhun button {
+  margin-bottom: 5px;
+  width: 100%;
+  font-weight: 900;
+  font-size: 1.2em;
+  border: none;
+}
+.frbdiv_aktu_poray_dakhun button:hover {
+  width: 95%;
+  transform: scale(1.1);
+}
+
+.sproduct_dislay_div {
+  border: 1px solid #ddd;
+}
+
+.plp .protitle {
+  font-size: 30px;
+  margin-top: -7px;
+}
+@media screen and (max-width: 991px) {
+  .plp .protitle {
+    font-size: 18px;
+  }
+}
+
+/*RIGHT SIDE START */
+.row_flassaletimer #FRcountDownX {
+  margin-bottom: 10px;
+}
+.row_flassaletimer #FRcountDownX .frcountdownnum {
+  float: center;
+  margin-top: 15px !important;
+}
+.row_flassaletimer #FRcountDownX li {
+  display: inline-block;
+  list-style-type: none;
+  padding: 5px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  text-align: center;
+  background: #ff6801;
+  color: #ffffff;
+  width: 55px;
+  border-radius: 5px;
+  margin-right: 3px;
+}
+.row_flassaletimer #FRcountDownX li span {
+  display: block;
+  font-size: 15px;
+  margin-bottom: -5px;
+}
+.row_flassaletimer #FRcountDownX li i {
+  font-size: 10px;
+}
+
+.sells_price {
+  font-weight: 900;
+  font-size: 2em;
+  color: #111;
+}
+
+/**/
+.sp_addtocart_btn,
+.sp_frdbtn_ordernow,
+.sp_frdbtn_co,
+.sp_frdbtn_wao {
+  width: 100% !important;
+  background: black;
+  border: none;
+  margin-bottom: 10px;
+  color: #fff;
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 5px;
+  font-size: 1.3em;
+}
+.sp_addtocart_btn:hover,
+.sp_frdbtn_ordernow:hover,
+.sp_frdbtn_co:hover,
+.sp_frdbtn_wao:hover {
+  transform: scale(1.1);
+}
+
+.sp_frdbtn_ordernow {
+  background: #016f32;
+}
+
+.sp_frdbtn_co {
+  background: blue;
+}
+.sp_frdbtn_co a {
+  text-decoration: none;
+  color: #fff;
+}
+.sp_frdbtn_wao {
+  background: #4be159;
+}
+
+div .CallForOrderDiv {
+  background: #ddd;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+div .CallForOrderDiv .textt {
+  color: #111;
+}
+div .CallForOrderDiv a {
+  font-weight: 900 !important;
+  text-decoration: none;
+  font-size: 2em;
+  color: #111;
+}
+
+div.frdiv_WhatsappOrder button {
+  border: none;
+}
+div.frdiv_WhatsappOrder button:hover {
+  transform: scale(1.1);
+}
+/*+++*/
+/*+++*/
+/*+++*/
+/*+++*/
+/*+++*/
+/*+++*/
+/*+++*/
+/****************************************************************/
+/*FRD PRODUCT AVARAGE RATING REVIEW & RATING REVIEW SHOW LIST */
+/****************************************************************/
+.FrAveRatingReviewDiv_Left {
+  text-align: center;
+}
+.FrAveRatingReviewDiv_Left span.avarate_star_rating {
+  font-size: 3em;
+  color: #faca51;
+}
+.FrAveRatingReviewDiv_Left span.avarate_star_rating span {
+  color: #ccc;
+}
+
+.FrAveRatingReviewDiv_right {
+  left: 50%;
+  top: 50%;
+}
+.FrAveRatingReviewDiv_right .frline {
+  float: left;
+  margin-bottom: -12px;
+}
+.FrAveRatingReviewDiv_right .frline .div1 {
+  float: left;
+  width: 70px;
+  font-size: 1.2em;
+  color: #faca51;
+}
+.FrAveRatingReviewDiv_right .frline .div2 {
+  width: 200px;
+  float: left;
+  padding-top: 3px;
+  margin-right: 5px;
+}
+.FrAveRatingReviewDiv_right .frline .div2 .progress-bar {
+  background: #faca51;
+}
+.FrAveRatingReviewDiv_right .frline .div3 {
+  float: left;
+  margin-top: 3px;
+  width: 20px;
+}
+
+.FrRatingReviewList {
+}
+.FrMedia_rr span.rating_star {
+  color: #faca51;
+  font-size: 1.5em;
+}
+.FrMedia_rr span.rating_star span {
+  color: #999;
+}
+
+/*----------------------------------------  FRD PC AND MOBILE DUIL STYLE  -------------------------------------------------------- */
+
+/******************************************************************/
+/*FRD SEARCH  SUGGETION STYLE 1 */
+/******************************************************************/
+.fr_searchsug_sty1 {
+  width: 50%;
+  height: 400px;
+  position: absolute;
+  z-index: 5;
+  background: #fff;
+  box-shadow: 0px 0px 2px 0px green;
+  overflow-y: scroll;
+  display: none;
+}
+.fr_searchsug_sty1 ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.fr_searchsug_sty1 ul li {
+  padding: 5px;
+}
+.fr_searchsug_sty1 ul li:hover {
+  background: #ddd;
+  cursor: pointer;
+}
+
+/******************************************************************/
+/*FRD BOOTSTRAP MODEL CUSTOMIZING */
+/******************************************************************/
+div.modal-dialog {
+  margin-top: 10% !important;
+}
+
+/***************************************************************/
+/* FRD OVERLAY SEARCE */
+/***************************************************************/
+.FRsSearchoverlay {
+  height: 100%;
+  width: 100%;
+  display: none;
+  position: fixed;
+  z-index: 99;
+  top: 0;
+  left: 0;
+  background-color: rgba(21, 19, 19, 0.902);
+}
+.FRsSearchoverlay .overlay-content {
+  position: relative;
+  top: 15%;
+  width: 80%;
+  text-align: center;
+  margin-top: 30px;
+  margin: auto;
+}
+.FRsSearchoverlay input[type="text"] {
+  padding: 15px;
+  font-size: 17px;
+  border: none;
+  float: left;
+  width: 80%;
+  background: white;
+}
+
+.FRsSearchoverlay input[type="text"]:hover {
+  background: #f1f1f1;
+}
+
+.FRsSearchoverlay button {
+  float: left;
+  width: 20%;
+  padding: 15px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  color: green;
+}
+
+.FRsSearchoverlay button:hover {
+  background: #bbb;
+  color: #088b50;
+}
+/*FRD PRODUCT SS */
+.FRsSearchoverlay #fr_pro_ss {
+  width: 90%;
+  height: 300px;
+  position: absolute;
+  z-index: 5;
+  background: #fff;
+  box-shadow: 0px 0px 2px 0px green;
+  overflow-y: scroll;
+  display: none;
+  text-align: left;
+}
+.FRsSearchoverlay #fr_pro_ss ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.FRsSearchoverlay #fr_pro_ss ul li {
+  padding: 5px;
+}
+.FRsSearchoverlay #fr_pro_ss ul li:hover {
+  background: #ddd;
+  cursor: pointer;
+}
+
+/***********************************************************/
+/* Page Title */
+/***********************************************************/
+
+.PT {
+  text-align: center;
+  font-weight: 800;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/**************************************************************/
+/* view-cart-trig-fc  */
+/**************************************************************/
+
+#view_cart_trig_sec {
+  z-index: 1;
+  /* Stay on top */
+  top: 0;
+  right: 0;
+  overflow-x: hidden;
+  /* Disable horizontal scroll */
+  position: fixed;
+  cursor: pointer;
+  width: 70px;
+  background: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  padding: 5px;
+  margin-top: 20%;
+  animation: slideInRight 1s 1;
+}
+@media (max-width: 778px) {
+  #view_cart_trig_sec {
+    display: none;
+  }
+}
+#view_cart_trig_sec .glyphicon-shopping-cart {
+  color: aliceblue;
+  font-size: 2em;
+}
+#view_cart_trig_sec .items {
+  color: aliceblue;
+}
+#view_cart_trig_sec .price {
+  color: aliceblue;
+}
+
+/***********************************************************************/
+/* SIDE-NAV-LEFT START */
+/***********************************************************************/
+
+/* The side navigation menu */
+
+.sidenav {
+  height: 100%;
+  /* 100% Full-height */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Stay on top */
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  /* Black*/
+  overflow-x: hidden;
+  /* Disable horizontal scroll */
+  padding-top: 30px;
+  /* Place content 60px from the top */
+  transition: 0.5s;
+  /* 0.5 second transition effect to slide in the sidenav */
+  margin-top: 30px;
+  width: 0px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+
+#main {
+  transition: margin-left 0.5s;
+  padding-left: 10px;
+  margin-left: 0px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+
+@media screen and (max-width: 991px) {
+  .sidenav {
+    width: 0px;
+    display: none;
+  }
+  #main {
+    margin-left: 0px;
+  }
+}
+
+/***********************************************************************/
+/* SIDE-NAV-RIGHT START */
+/***********************************************************************/
+/* */
+.sidenav_right {
+  height: 100%;
+  /* 100% Full-height */
+  position: fixed;
+  /* Stay in place */
+  z-index: 99;
+  /* Stay on top */
+  top: 0;
+  right: 0;
+  background-color: #d5d0cd;
+  /* Black*/
+  overflow-x: hidden;
+  /* Disable horizontal scroll */
+  padding-top: 30px;
+  /* Place content 60px from the top */
+  /* transition: 0.5s; 0.5 second transition effect to slide in the sidenav */
+  margin-top: 30px;
+  width: 0px;
+  border: 1px solid #ddd;
+  animation: slideInRight 1s 1;
+}
+
+/*****************************************************************/
+/* FRD POPUP VARIARION PRODUCT ADD TO CART BUTTON */
+/*****************************************************************/
+.frbtn_vp_atc {
+  border: none;
+  background-color: #000;
+}
+.frbtn_vp_atc:hover {
+  background-color: green;
+  transform: scale(1.1);
+}
+
+.frbtn_wao_vp_atc {
+  border: none;
+  background: #4be159;
+}
+
+/*****************************************************************/
+/* FRD PRODUCT BOX 1 */
+/*****************************************************************/
+.frs_pbox_1 {
+  background: #ffffff;
+  width: 200px;
+  height: 277px;
+  position: relative;
+  overflow: hidden;
+  margin: 10px 10px;
+  float: left;
+}
+
+.frs_pbox_1 .frs_dcb {
+  position: absolute;
+  text-align: center;
+  background: #111111;
+  display: inline-block;
+  color: #fff;
+  font-weight: bold;
+  padding: 6px;
+  right: 0px;
+  width: 50px;
+  height: 50px;
+  border-radius: 60%;
+  margin: 5px;
+}
+.frs_pbox_1 .frs_dcb:hover {
+  background: green;
+  color: #fff;
+}
+
+.frs_pbox_1 .stock_out_alert {
+  position: absolute;
+  text-align: center;
+  background: #333333;
+  display: inline-block;
+  color: #fff;
+  font-weight: bold;
+  padding: 6px;
+  right: 0px;
+  width: 50px;
+  height: 50px;
+  border-radius: 0%;
+  margin: 0px;
+}
+
+.frs_pbox_1 img {
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  display: block;
+}
+
+.frs_pbox_1 .fr_c1 {
+  padding: 0px 3px 0px 3px;
+}
+.frs_pbox_1 .fr_c1 .pprice .markprice {
+  color: #333;
+  font-size: 12px;
+}
+.frs_pbox_1 .fr_c1 .pprice {
+  color: #111;
+  font-weight: bold;
+  display: block;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: 900;
+}
+.frs_pbox_1 .fr_c1 .ptitel {
+  display: block;
+  font-size: 12px;
+  text-align: center;
+  font-style: italic;
+  color: #222;
+  line-height: 15px;
+}
+.frs_pbox_1 .fr_c1 marquee {
+  margin-top: 5px;
+}
+
+.frs_pbox_1 .frcontent {
+  background: rgba(21, 24, 23, 0.845);
+  position: absolute;
+  height: 100%;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  transition: all 0.5s;
+}
+.frs_pbox_1:hover .frcontent {
+  left: 0;
+}
+
+.frs_pbox_1 button.on,
+.frs_pbox_1 button.atc {
+  width: 100%;
+  cursor: pointer;
+  border: none;
+  padding: 6px;
+  font-weight: bold;
+}
+
+.frs_pbox_1 button.on {
+  margin-bottom: 10px;
+  background: brown;
+  color: #fff;
+}
+.frs_pbox_1 button.on:hover {
+  background: #016f32;
+}
+
+.frs_pbox_1 button.atc {
+  background: #17773f;
+  color: #fff;
+}
+.frs_pbox_1 button.atc:hover {
+  background: #016f32;
+}
+
+.frs_pbox_1 button.qv,
+.frs_pbox_1 button.vd {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 4px;
+  border: none;
+  font-size: 1.2em;
+}
+
+@media (max-width: 768px) {
+  .frs_pbox_1 {
+    width: 100%;
+    height: 230px;
+    margin: 0px 0px 15px 0px;
+  }
+
+  .frs_pbox_1 img {
+    width: auto;
+    max-height: 60%;
+    margin-top: 5px;
+  }
+  .frs_pbox_1 .fr_c1 .ptitel {
+    line-height: 12px;
+  }
+
+  .frs_pbox_1 button.on,
+  .frs_pbox_1 button.atc {
+    padding: 6px;
+    font-size: 12px;
+  }
+}
+
+/*************************************************/
+/* FRD PRODUCT BOX 2 */
+/*************************************************/
+.frs_pbox_2 {
+  background: #ffffff;
+  width: 200px;
+  height: 277px;
+  position: relative;
+  overflow: hidden;
+  margin: 10px 10px;
+  float: left;
+  box-shadow: 0px 0px 5px 0px #111111;
+}
+
+.frs_pbox_2 .frs_dcb {
+  position: absolute;
+  text-align: center;
+  background: #111111;
+  display: inline-block;
+  color: #fff;
+  font-weight: bold;
+  font-size: 11px;
+  padding: 6px;
+  right: 0px;
+  width: 40px;
+  height: 40px;
+  border-radius: 60%;
+  margin: 5px;
+}
+.frs_pbox_2 .frs_dcb:hover {
+  opacity: 0;
+}
+
+.frs_pbox_2 .stock_out_alert {
+  position: absolute;
+  text-align: center;
+  background: rgba(229, 36, 36, 0.767);
+  display: inline-block;
+  color: #fff;
+  font-weight: bold;
+  padding: 6px;
+  right: 0px;
+  width: 50px;
+  height: 50px;
+  border-radius: 0%;
+  margin: 0px;
+}
+.frs_pbox_2 .stock_out_alert:hover {
+  opacity: 0;
+}
+
+.frs_pbox_2 img {
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  display: block;
+}
+
+.frs_pbox_2 .fr_c1 {
+  padding: 0px 3px 0px 3px;
+}
+.frs_pbox_2 .fr_c1 .pprice .markprice {
+  color: #333;
+  font-size: 12px;
+}
+.frs_pbox_2 .fr_c1 .pprice {
+  color: #111;
+  font-weight: bold;
+  display: block;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: 900;
+}
+.frs_pbox_2 .fr_c1 .ptitel {
+  display: block;
+  font-size: 12px;
+  text-align: center;
+  font-style: italic;
+  color: #222;
+  line-height: 15px;
+}
+
+@media (max-width: 768px) {
+  .frs_pbox_2 {
+    width: 100%;
+    height: 230px;
+    margin: 0px 0px 15px 0px;
+  }
+
+  .frs_pbox_2 img {
+    width: auto;
+    max-height: 60%;
+    margin-top: 5px;
+  }
+  .frs_pbox_2 .fr_c1 .ptitel {
+    line-height: 12px;
+  }
+}
+
+/*****************************************************************/
+/* FRD PRODUCT BOX 3 */
+/*****************************************************************/
+.fr_pbox_3 {
+  background: #ffffff;
+  width: auto;
+  height: 260px;
+  margin-bottom: 40px;
+  overflow: hidden;
+}
+.fr_pbox_3:hover {
+  transform: scale(1.1);
+}
+.fr_pbox_3 a {
+  text-decoration: none;
+}
+
+.fr_pbox_3 .frs_discount {
+  position: absolute;
+  text-align: center;
+  background: #111111;
+  display: inline-block;
+  color: #fff;
+  font-weight: bold;
+  padding: 6px;
+  right: 15px;
+  width: 40px;
+  height: 40px;
+  border-radius: 60%;
+  margin: 5px;
+  font-size: 10px;
+}
+.fr_pbox_3 .frs_discount:hover {
+  background: green;
+  color: #fff;
+  opacity: 0;
+}
+
+.fr_pbox_3 .stock_out_alert {
+  position: absolute;
+  text-align: center;
+  background: #333333 !important;
+  display: inline-block;
+  color: #fff;
+  font-weight: bold;
+  padding: 6px;
+  right: 15px;
+  width: 40px;
+  height: 40px;
+  border-radius: 0%;
+  margin: 0px;
+  font-size: 10px;
+}
+
+.fr_pbox_3 img {
+  width: auto;
+  max-height: 170px;
+  margin: auto;
+}
+
+.fr_pbox_3 .frinfo {
+  padding: 0px 3px 0px 3px;
+  height: 90px;
+  overflow: hidden;
+}
+.fr_pbox_3 .frinfo .ptitel {
+  display: block;
+  font-size: 12px;
+  text-align: center;
+  color: #222;
+  line-height: 15px;
+  height: 30px;
+  overflow: hidden;
+}
+.fr_pbox_3 .frinfo .pprice .markprice {
+  color: #333;
+  font-size: 12px;
+}
+.fr_pbox_3 .frinfo .pprice {
+  color: #111;
+  font-weight: bold;
+  display: block;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: 900;
+}
+
+@media (max-width: 768px) {
+  .fr_pbox_3 {
+    width: 100%;
+    height: 240px;
+  }
+
+  .fr_pbox_3 img {
+    width: auto;
+    max-height: 60%;
+    margin-top: 5px;
+  }
+  .fr_pbox_3 .frinfo .ptitel {
+    line-height: 14px;
+  }
+}
+
+/*****************************************************************/
+/* FRD PRODUCT BOX 4 */
+/*****************************************************************/
+.fr_pbox_4 {
+  background: #ffffff;
+  width: auto;
+  height: 310px;
+  margin-bottom: 40px;
+  overflow: hidden;
+  border-radius: 5px;
+}
+.fr_pbox_4:hover {
+  transform: scale(1.1);
+}
+
+.fr_pbox_4 a {
+  text-decoration: none;
+}
+
+.fr_pbox_4 .frimgdiv {
+}
+
+.fr_pbox_4 .frs_discount {
+  position: absolute;
+  text-align: center;
+  background: rgba(241, 70, 70, 0.767);
+  display: inline-block;
+  color: #fff;
+  font-weight: bold;
+  padding: 6px;
+  right: 15px;
+  width: 40px;
+  height: 40px;
+  border-radius: 60%;
+  margin: 5px;
+  font-size: 10px;
+}
+.fr_pbox_4 .frs_discount:hover {
+  background: green;
+  color: #fff;
+  opacity: 0;
+}
+
+.fr_pbox_4 .stock_out_alert {
+  position: absolute;
+  text-align: center;
+  background: rgba(229, 36, 36, 0.767);
+  background: #aa1616;
+  display: inline-block;
+  color: #fff;
+  font-weight: bold;
+  padding: 6px;
+  right: 15px;
+  width: 40px;
+  height: 40px;
+  border-radius: 0%;
+  margin: 0px;
+  font-size: 10px;
+}
+
+.fr_pbox_4 img {
+  width: auto;
+  max-height: 170px;
+  min-height: 170px;
+  margin: auto;
+}
+
+.fr_pbox_4 .frinfo {
+  padding: 0px 3px 0px 3px;
+  height: 90px;
+  overflow: hidden;
+}
+.fr_pbox_4 .frinfo .ptitel {
+  display: block;
+  font-size: 12px;
+  text-align: center;
+  color: #222;
+  line-height: 15px;
+  height: 30px;
+  overflow: hidden;
+}
+.fr_pbox_4 .frinfo .pprice .markprice {
+  color: #333;
+  font-size: 12px;
+}
+.fr_pbox_4 .frinfo .pprice {
+  color: #111;
+  font-weight: bold;
+  display: block;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: 900;
+}
+
+.fr_pbox_4 .pbtn {
+  margin-top: 5px;
+  text-align: center;
+}
+.fr_pbox_4 .pbtn button.frbtn_ordernow {
+  border: none;
+  padding: 10px;
+  background: #1090f3;
+  color: #fff;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.fr_pbox_4 .pbtn button.frbtn_ordernow:hover {
+  background: #016f32;
+}
+@media (max-width: 768px) {
+  .fr_pbox_4 {
+    width: 100%;
+    height: 310px;
+  }
+  .fr_pbox_4 img {
+    width: auto;
+    max-height: 160px;
+    min-height: 160px;
+    margin-top: 5px;
+  }
+  .fr_pbox_4 .frinfo .ptitel {
+    line-height: 14px;
+  }
+}
+
+/*****************************************************************/
+/* FRD PRODUCT BOX 5 */
+/*****************************************************************/
+.fr_pbox_5 {
+  background: #ffffff;
+  width: auto;
+  height: 310px;
+  margin-bottom: 40px;
+  overflow: hidden;
+  border-radius: 5px;
+}
+.fr_pbox_5:hover {
+  transform: scale(1.1);
+}
+
+.fr_pbox_5 a {
+  text-decoration: none;
+}
+
+.fr_pbox_5 .frimgdiv {
+}
+
+.fr_pbox_5 .frs_discount {
+  position: absolute;
+  text-align: center;
+  background: rgba(241, 70, 70, 0.767);
+  display: inline-block;
+  color: #fff;
+  font-weight: bold;
+  padding: 6px;
+  right: 15px;
+  width: 40px;
+  height: 40px;
+  border-radius: 60%;
+  margin: 5px;
+  font-size: 10px;
+}
+.fr_pbox_5 .frs_discount:hover {
+  background: green;
+  color: #fff;
+  opacity: 0;
+}
+
+.fr_pbox_5 .stock_out_alert {
+  position: absolute;
+  text-align: center;
+  background: rgba(229, 36, 36, 0.767);
+  background: #aa1616;
+  display: inline-block;
+  color: #fff;
+  font-weight: bold;
+  padding: 6px;
+  right: 15px;
+  width: 40px;
+  height: 40px;
+  border-radius: 0%;
+  margin: 0px;
+  font-size: 10px;
+}
+
+.fr_pbox_5 img {
+  width: auto;
+  max-height: 170px;
+  min-height: 170px;
+  margin: auto;
+}
+
+.fr_pbox_5 .frinfo {
+  padding: 0px 3px 0px 3px;
+  height: 90px;
+  overflow: hidden;
+}
+.fr_pbox_5 .frinfo .ptitel {
+  display: block;
+  font-size: 12px;
+  text-align: center;
+  color: #222;
+  line-height: 15px;
+  height: 30px;
+  overflow: hidden;
+}
+.fr_pbox_5 .frinfo .pprice .markprice {
+  color: #333;
+  font-size: 12px;
+}
+.fr_pbox_5 .frinfo .pprice {
+  color: #111;
+  font-weight: bold;
+  display: block;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: 900;
+}
+
+.fr_pbox_5 .pbtn {
+  margin-top: 5px;
+  text-align: center;
+}
+.fr_pbox_5 table tr td {
+  padding-left: 2px;
+  width: 100%;
+}
+.fr_pbox_5 .pbtn button.frbtn_ordernow {
+  border: none;
+  padding: 4px;
+  background: #1090f3;
+  color: #fff;
+  font-weight: bold;
+  font-size: 15px;
+}
+.fr_pbox_5 .pbtn button.frbtn_ordernow:hover {
+  background: #016f32;
+}
+@media (max-width: 768px) {
+  .fr_pbox_5 {
+    width: 100%;
+    height: 310px;
+  }
+  .fr_pbox_5 img {
+    width: auto;
+    max-height: 160px;
+    min-height: 160px;
+    margin-top: 5px;
+  }
+  .fr_pbox_5 .frinfo .ptitel {
+    line-height: 14px;
+  }
+}
+
+/*****************************************************************/
+/* FRD PRODUCT BOX 8 */
+/*****************************************************************/
+.fr_pbox_8 {
+  background: #ffffff;
+  width: auto;
+  height: 333px;
+  margin-bottom: 40px;
+  overflow: hidden;
+  border-radius: 5px;
+}
+.fr_pbox_8:hover {
+  transform: scale(1.1);
+}
+
+.fr_pbox_8 a {
+  text-decoration: none;
+}
+
+.fr_pbox_8 .frs_discount {
+  position: absolute;
+  text-align: center;
+  background: rgba(241, 70, 70, 0.767);
+  display: inline-block;
+  color: #fff;
+  font-weight: bold;
+  padding: 6px;
+  right: 15px;
+  width: 40px;
+  height: 40px;
+  border-radius: 60%;
+  margin: 5px;
+  font-size: 10px;
+}
+.fr_pbox_8 .frs_discount:hover {
+  background: green;
+  color: #fff;
+  opacity: 0;
+}
+.fr_pbox_8 .stock_out_alert {
+  position: absolute;
+  text-align: center;
+  background: rgba(229, 36, 36, 0.767);
+  background: #aa1616;
+  display: inline-block;
+  color: #fff;
+  font-weight: bold;
+  padding: 6px;
+  right: 15px;
+  width: 40px;
+  height: 40px;
+  border-radius: 0%;
+  margin: 0px;
+  font-size: 10px;
+}
+
+.fr_pbox_8 img {
+  width: auto;
+  max-height: 170px;
+  min-height: 170px;
+  margin: auto;
+}
+
+.fr_pbox_8 .frinfo {
+  padding: 0px 3px 0px 3px;
+  height: 90px;
+  overflow: hidden;
+}
+.fr_pbox_8 .frinfo .ptitel {
+  display: block;
+  font-size: 12px;
+  text-align: center;
+  color: #222;
+  line-height: 15px;
+  height: 30px;
+  overflow: hidden;
+}
+.fr_pbox_8 .frinfo .pprice .markprice {
+  color: #333;
+  font-size: 12px;
+}
+.fr_pbox_8 .frinfo .pprice {
+  color: #111;
+  font-weight: bold;
+  display: block;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: 900;
+}
+
+.fr_pbox_8 .buttons {
+  width: 100%;
+}
+.fr_pbox_8 .buttons .frbtn_ordernow {
+  border: none;
+  display: block;
+  width: 100%;
+  font-size: 18px;
+  margin-top: 5px;
+  padding: 3px;
+  font-weight: bold;
+}
+.fr_pbox_8 .buttons .frbtn_addtocart {
+  border: none;
+  display: block;
+  width: 100%;
+  font-size: 18px;
+  margin-top: 5px;
+  padding: 3px;
+  font-weight: bold;
+  background: #333333;
+  color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  .fr_pbox_8 {
+    width: 100%;
+    height: 330px;
+  }
+  .fr_pbox_8 img {
+    width: auto;
+    max-height: 160px;
+    min-height: 160px;
+    margin-top: 5px;
+  }
+  .fr_pbox_8 .frinfo .ptitel {
+    line-height: 14px;
+  }
+}
+
+/**************************************************************/
+/* FRD INVOICE STYLE s */
+/**************************************************************/
+img#invoice_bandlogu {
+  width: 200px;
+  height: 100px;
+  margin: auto;
+}
+table.invoice {
+  width: 100%;
+}
+table.invoice img {
+  max-width: 60px;
+  max-height: 60px;
+  padding: 5px;
+}
+table.invoice tr td {
+  border: 1px solid #222;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+/* table invoice_summary  */
+table#invoice_summary {
+  font-weight: 900;
+  font-size: 14px;
+  width: 100%;
+  margin-top: 20px;
+}
+table#invoice_summary tr td {
+  border: 1px solid #222;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+/**************************************************************/
+/* LOGIN-FORM-CUSTOMER */
+/**************************************************************/
+button.frorderwithoutlogin {
+  background: #fff;
+  width: 100%;
+  border: none;
+  font-weight: bold;
+}
+button.frorderwithoutlogin:hover {
+  background: #ddd !important;
+}
+
+button.frsendmeotp {
+  border: none !important;
+}
+button.frsendmeotp:hover {
+  transform: scale(1.1);
+}
+
+button.frloginconfirm {
+  border: none !important;
+}
+button.frloginconfirm:hover {
+  transform: scale(1.1);
+}
+
+/*************************************************************************/
+/* FRD CHECKOUT FORM */
+/*************************************************************************/
+form.fdeliAadd {
+  box-shadow: 0px 0px 10px 0px #016f32;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+form.fdeliAadd {
+  background: #ddd;
+}
+
+.fdeliAadd button {
+  border: none;
+  font-weight: 900;
+  font-size: 1.5em;
+  border: none;
+  background: #016f32;
+}
+.fdeliAadd button:hover {
+  opacity: 0.7;
+  transform: rotate(-3deg);
+}
+
+table.t_deliform {
+  width: 100%;
+}
+table.t_deliform tr td {
+  padding-top: 6px;
+}
+
+button.FRorderWithloginSingupBtn_hycx {
+  background: none;
+  border: none;
+}
+button.FRorderWithloginSingupBtn_hycx:hover {
+  border: none;
+}
+
+/********************************************************/
+/*FRD CATEGORY BOX 1 STYLE S*/
+/********************************************************/
+.frs_catbox_1 {
+  box-shadow: 0px 0px 10px 0px #111111;
+  margin: 15px;
+  width: 160px;
+  height: 230px;
+  float: left;
+  overflow: hidden;
+  background: #dddddd;
+  border: 2px solid #555555;
+}
+.frs_catbox_1:hover {
+  transform: scale(1.1);
+}
+.frs_catbox_1 img {
+  width: 160px;
+  height: 160px;
+  margin: auto;
+  display: block;
+}
+.frs_catbox_1 a {
+  text-decoration: none;
+  color: #222;
+}
+.frs_catbox_1 .title {
+  text-align: center;
+  font-weight: bolder;
+}
+.frs_catbox_1 .procount {
+  color: green;
+}
+
+@media (max-width: 768px) {
+  .frs_catbox_1 {
+    width: 100%;
+    height: 230px;
+  }
+  .frs_catbox_1 img {
+    width: auto;
+    max-height: 70%;
+    margin-top: 5px;
+  }
+}
+
+/********************************************************/
+/*FRD LIST STYLE S*/
+/********************************************************/
+.catlistdiv {
+  background: #ffffff;
+  box-shadow: 0px 0px 10px 0px #111111;
+}
+.catlistdiv a {
+  color: #111111;
+}
+.catlistdiv .catt {
+  cursor: pointer;
+}
+
+.catlistdiv .catt:hover {
+  color: #ff6e68;
+  font-weight: 900;
+}
+
+.catlistdiv .cat_type1 {
+  margin-top: 50px;
+  font-style: italic;
+  font-weight: 900;
+}
+
+.catlistdiv .cat_type2 {
+  margin-left: 100px;
+}
+
+.catlistdiv .cat_type3 {
+  margin-left: 150px;
+}
+
+.catlistdiv .cat_type4 {
+  margin-left: 200px;
+}
+
+/******************************************************************/
+/*FRD BRAND BOX 1 STYLE S*/
+/******************************************************************/
+.frs_brandbox_1 {
+  box-shadow: 0px 0px 10px 0px #111111;
+  margin-bottom: 20px;
+  width: 160px;
+  height: 230px;
+  float: left;
+  overflow: hidden;
+}
+.frs_brandbox_1:hover {
+  transform: scale(1.1);
+}
+.frs_brandbox_1 img {
+  width: 160px;
+  height: 160px;
+  margin: auto;
+  display: block;
+}
+.frs_brandbox_1 a {
+  text-decoration: none;
+  color: #111111;
+}
+.frs_brandbox_1 .title {
+  text-align: center;
+  font-weight: bolder;
+}
+@media (max-width: 768px) {
+  .frs_brandbox_1 {
+    width: 100%;
+    height: 200px;
+  }
+
+  .frs_brandbox_1 img {
+    width: auto;
+    max-height: 80%;
+  }
+}
+
+/*******************************************************************/
+/* FORM-SHIP-INFO-ADD */
+/*******************************************************************/
+form#f_shipinfoadd {
+  border: 2px solid black;
+  padding: 20px;
+  border-radius: 5px;
+}
+form#f_shipinfoadd .btn_placeorder {
+  background: black;
+}
+form#f_shipinfoadd .btn_placeorder:hover {
+  background: brown;
+}
+
+/*****************************************/
+/*FRD REVIEW SUBMIT FORM*/
+/*****************************************/
+.FrStarRate {
+  color: #ccc;
+  font-size: 3em;
+  cursor: pointer;
+}
+.FrStarRate span.checked {
+  color: #faca51;
+}
+
+/************************************************************************/
+/*FRD TIME LINE CSS START*/
+/************************************************************************/
+.timeline {
+  border-left: 3px solid #159b71;
+  border-bottom-right-radius: 4px;
+  border-top-right-radius: 4px;
+  /* background: rgba(114, 124, 245, 0.09); */
+  margin: 0 auto;
+  margin-bottom: 20px;
+  letter-spacing: 0.2px;
+  position: relative;
+  line-height: 1.4em;
+  font-size: 1.03em;
+  padding: 25px;
+  list-style: none;
+  text-align: left;
+  width: 100%;
+}
+
+.timeline h1 {
+  font-weight: 300;
+  font-size: 1.1em;
+}
+
+.timeline h2,
+.timeline h3 {
+  font-weight: 600;
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.timeline .event {
+  border-bottom: 1px dashed #e8ebf1;
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+  position: relative;
+}
+
+.timeline .event:last-of-type {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  border: none;
+}
+
+.timeline .event:before,
+.timeline .event:after {
+  position: absolute;
+  display: block;
+  top: 0;
+}
+
+.timeline .event:before {
+  /* left: -207px; */
+  margin-bottom: -20px !important;
+  position: relative;
+  opacity: 0.7;
+
+  content: attr(data-date);
+  text-align: left;
+  font-weight: 100;
+  font-size: 0.9em;
+  min-width: 120px;
+}
+
+.timeline .event:after {
+  -webkit-box-shadow: 0 0 0 3px #159b71;
+  box-shadow: 0 0 0 3px #159b71;
+  left: -36px;
+  background: #fff;
+  border-radius: 50%;
+  height: 18px;
+  width: 18px;
+  content: "ok";
+  font-size: 14px;
+  padding-left: 3px;
+  /* content: "✅"; */
+  content: "✔️";
+  top: 19px;
+}
+
+.timeline .active_event:after {
+  background: #159b71;
+  color: #fff !important;
+  content: "✔️";
+  padding-left: 2px;
+  animation: active_event_pippip 1s infinite;
+}
+@keyframes active_event_pippip {
+  50% {
+    background: #fff;
+  }
+}
+
+/***********************************************************************/
+/* FRD USER LIST 1 */
+/************************************************************************/
+.frUsrList1 .user-list tbody td > img {
+  position: relative;
+  max-width: 50px;
+  float: left;
+  margin-right: 15px;
+}
+.frUsrList1 .user-list tbody td .user-link {
+  display: block;
+  font-size: 1.25em;
+  padding-top: 3px;
+  margin-left: 60px;
+}
+.frUsrList1 .user-list tbody td .user-subhead {
+  font-size: 0.875em;
+  font-style: italic;
+}
+
+/* TABLES */
+.frUsrList1 .table {
+  border-collapse: separate;
+}
+.frUsrList1 .table-hover > tbody > tr:hover > td,
+.frUsrList1 .table-hover > tbody > tr:hover > th {
+  background-color: #eee;
+}
+.frUsrList1 .table thead > tr > th {
+  border-bottom: 1px solid #c2c2c2;
+  padding-bottom: 0;
+}
+.frUsrList1 .table tbody > tr > td {
+  font-size: 0.875em;
+  background: #f5f5f5;
+  border-top: 10px solid #fff;
+  vertical-align: middle;
+  padding: 12px 8px;
+}
+.frUsrList1 .table tbody > tr > td:first-child,
+.frUsrList1 .table thead > tr > th:first-child {
+  padding-left: 20px;
+}
+.frUsrList1 .table thead > tr > th span {
+  border-bottom: 2px solid #c2c2c2;
+  display: inline-block;
+  padding: 0 5px;
+  padding-bottom: 5px;
+  font-weight: normal;
+}
+.frUsrList1 .table thead > tr > th > a span {
+  color: #344644;
+}
+.frUsrList1 .table thead > tr > th > a span:after {
+  content: "\f0dc";
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+  margin-left: 5px;
+  font-size: 0.75em;
+}
+.frUsrList1 .table thead > tr > th > a.asc span:after {
+  content: "\f0dd";
+}
+.frUsrList1 .table thead > tr > th > a.desc span:after {
+  content: "\f0de";
+}
+.frUsrList1 .table thead > tr > th > a:hover span {
+  text-decoration: none;
+  color: #2bb6a3;
+  border-color: #2bb6a3;
+}
+.frUsrList1 .table.table-hover tbody > tr > td {
+  -webkit-transition: background-color 0.15s ease-in-out 0s;
+  transition: background-color 0.15s ease-in-out 0s;
+}
+.frUsrList1 .table tbody tr td .call-type {
+  display: block;
+  font-size: 0.75em;
+  text-align: center;
+}
+.frUsrList1 .table tbody tr td .first-line {
+  line-height: 1.5;
+  font-weight: 400;
+  font-size: 1.125em;
+}
+.frUsrList1 .table tbody tr td .first-line span {
+  font-size: 0.875em;
+  color: #969696;
+  font-weight: 300;
+}
+.frUsrList1 .table tbody tr td .second-line {
+  font-size: 0.875em;
+  line-height: 1.2;
+}
+.frUsrList1 .table a.table-link {
+  margin: 0px 5px;
+  font-size: 1.125em;
+}
+.frUsrList1 .table a.table-link {
+  opacity: 0.7;
+}
+.frUsrList1 .table a.table-link:hover {
+  opacity: 1;
+}
+/* FRD USER LIST 1 END>> */
+
+/*********************************************/
+/* SCROLL TO TOP CSS START | GO TOP | GO TO TOP */
+/*********************************************/
+#myScrollTopBtn {
+  display: none;
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #666;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+#myScrollTopBtn:hover {
+  background-color: #555;
+  transform: scale(1.1);
+}
+@media only screen and (max-width: 778px) {
+  #myScrollTopBtn {
+    font-size: 9px !important;
+    padding: 9px !important;
+    border-radius: 9px !important;
+  }
+}
+/**END>>**/
+
+/*********************************************/
+/* FRD CHAT OPTION OPEN CSS START */
+/*********************************************/
+.FrBtn_ChatOptionShow {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  z-index: 99;
+  font-size: 30px;
+  border: none;
+  outline: none;
+  background-color: #0095fe;
+  color: white;
+  cursor: pointer;
+  padding: 6px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.FrBtn_ChatOptionShow:hover {
+  background-color: #016f32;
+  transform: scale(1.1);
+}
+@media (max-width: 768px) {
+  .FrBtn_ChatOptionShow {
+    font-size: 21px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+}
+/**END>>**/
+
+/************************************************/
+/*FRD FOOTER 2*/
+/************************************************/
+section#FrFooter2 {
+  text-align: center;
+  background-color: #fff;
+  padding-bottom: 10px;
+  padding-top: 50px;
+}
+section#FrFooter2 .copywrite,
+section#FrFooter2 .copywrite a {
+  color: #111;
+}
+section#FrFooter2 div.frdcredits span {
+  color: #016f32 !important;
+}
+section#FrFooter2 div.frdcredits a {
+  color: brown !important;
+}

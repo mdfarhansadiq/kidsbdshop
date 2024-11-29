@@ -1,0 +1,3 @@
+<?php
+$FRc_THIS_P_ID = 3;
+$FR_PLUGIN_VERSION = 1;

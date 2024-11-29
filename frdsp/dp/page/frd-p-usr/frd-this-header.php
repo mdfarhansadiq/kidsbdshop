@@ -1,0 +1,2 @@
+<?php
+$FRc_THIS_P_ID = 5;//THIS PANEL ID [5 = SOFTWARE USER LIST]

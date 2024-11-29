@@ -1,0 +1,18 @@
+# Block all crawlers from accessing
+User-agent: *
+Disallow: /admin/
+Disallow: /ss-login/
+Disallow: /Spider_eCommerce-login/
+Disallow: /checkout/
+
+# Allow all crawlers to access
+User-agent: *
+Allow: /products/
+Allow: /categories/
+Allow: /categories_list/
+Allow: /offers/
+Allow: /flash-sales/
+
+# Specify the location of the sitemap
+User-agent: *
+Sitemap: https://kidsbd.shop/sitemap.xml

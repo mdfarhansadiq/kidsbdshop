@@ -1,0 +1,2 @@
+<?php
+$FR_PLUGIN_VERSION = 1;
