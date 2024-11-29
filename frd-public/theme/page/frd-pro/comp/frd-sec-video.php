@@ -63,7 +63,7 @@
       }, 2000);
       setTimeout(function() {
           $(".ProductVideoSec").show();
-      }, 3000);
+      }, 1000);
     });
    </script>
   <?php } ?> 

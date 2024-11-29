@@ -297,7 +297,7 @@ form.fdeliAadd {
 
 .hp_sectitlefrd {
     color: #008a00 !important;
-    text-align: center !important;
+    text-align: center !important; /**/
 }
 .hp_super_secfrd a.frs_moreseebtn{
     background: #008a00 !important; 

@@ -26,12 +26,12 @@
       <style>
           h2.plp2_protitle {
                 font-size: 30px;
-                text-align: center !important;
+                text-align: center !important; /**/
               }
           @media screen and (max-width: 991px) {
             h2.plp2_protitle {
               font-size: 18px;
-              text-align: center !important;
+              text-align: center !important; /**/
             }
           }
 

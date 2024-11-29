@@ -6,8 +6,8 @@
     $FRdbN = "kidsbdshop";
     $tpfix = "";
 //FRD SERVER:-
-   $FR_SERVER = 2;//[1=LIVE][2=LOCAL]
-   $frd_server='local';//[live] [local]
+   $FR_SERVER = 1;//[1=LIVE][2=LOCAL]
+   $frd_server='live';//[live] [local]
 //FRD THIS:-
     $FRcf_ParcelBooki = "";//[1=PARCEL BOOKING FETURES YES]
 //FRD AKEY:-
