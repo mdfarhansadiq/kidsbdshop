@@ -9,7 +9,7 @@
 <div class="container">
   <div class="row">
     <div class="col-md-12">
-      <h2 class="plp2_protitle" style="text-align: center !important;"><?php echo "$bn_name" ?></h2>
+      <h2 class="plp2_protitle" style="text-align: center !important;"><b><?php echo "$bn_name" ?></b></h2>
     </div>
   </div>
 </div>
@@ -329,7 +329,7 @@
             $("#FR_DATA_ORDER_FORM").html(data);
           },
         });
-      }, 1000);
+      }, 0);
     }); //F D R E    
   </script>
 </section>

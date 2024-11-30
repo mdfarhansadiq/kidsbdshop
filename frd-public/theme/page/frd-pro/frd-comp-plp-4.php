@@ -316,7 +316,7 @@
             $("#FR_DATA_ORDER_FORM").html(data);
           },
         });
-      }, 3000);
+      }, 0);
     }); //F D R E    
   </script>
 </section>
