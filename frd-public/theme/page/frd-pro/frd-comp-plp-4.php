@@ -217,7 +217,6 @@
                 <img src='$FRD_HURL/frd-data/img/product/$pic_1' alt='#' style='width:50px; height:50px;'> 
                 $FRc_COLOR_NAME
             </label>
-            <input type='number' name='quantity_$id' id='quantity_$id' min='1' value='1' class='plp3-quantity-input' style='width: 60px;' placeholder='Qty'>
         </div>
     ";
         }
@@ -277,7 +276,6 @@
         <div class='plp3-size-container' style='display: flex; align-items: center; gap: 15px; margin-bottom: 10px;'>
             <input type='radio' name='f_size_name' id='$id' value='$id' saleprice='$FRc_SalesPrice' val_sizename='$siz_name' class='plp3-size-radio f_size_name_id'>
             <label for='$id' class='plp3-size-label'>$siz_name - <small>$frlc_tksymbol_txt $FRc_SalesPrice</small></label>
-            <input type='number' name='quantity_$id' id='quantity_$id' min='1' value='1' class='plp3-quantity-input' style='width: 60px;' placeholder='Qty'>
         </div>
     ";
         }
