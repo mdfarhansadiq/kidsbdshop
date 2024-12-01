@@ -230,6 +230,7 @@
                 <img src='$FRD_HURL/frd-data/img/product/$pic_1' alt='#' style='width:50px; height:50px;'> 
                 $FRc_COLOR_NAME
             </label>
+            <input type='number' name='quantity_$id' id='quantity_$id' min='1' value='1' class='plp3-quantity-input' style='width: 60px;' placeholder='Qty'>
         </div>
     ";
         }
@@ -289,6 +290,7 @@
         <div class='plp3-size-container' style='display: flex; align-items: center; gap: 15px; margin-bottom: 10px;'>
             <input type='radio' name='f_size_name' id='$id' value='$id' saleprice='$FRc_SalesPrice' val_sizename='$siz_name' class='plp3-size-radio f_size_name_id'>
             <label for='$id' class='plp3-size-label'>$siz_name - <small>$frlc_tksymbol_txt $FRc_SalesPrice</small></label>
+            <input type='number' name='quantity_$id' id='quantity_$id' min='1' value='1' class='plp3-quantity-input' style='width: 60px;' placeholder='Qty'>
         </div>
     ";
         }
@@ -316,14 +318,17 @@
     </div>
   </div>
   <script>
+    
     $(document).ready(function() {
       setTimeout(function() {
+        let FRc_ProductQuantity = $("input[name='quantity_" + FRc_ProductIdxx + "']").val(); // Fetch the quantity value
         $.ajax({
           url: FRD_HURLL + "/frd-public/theme/api/frdapi-PopupCheckoutForm.php",
           method: "POST",
           data: {
             f_product_id: FRc_ProductIdxx,
-            f_spiderecommerce: FRD_HURLL
+            f_spiderecommerce: FRD_HURLL,
+            f_product_quantity: FRc_ProductQuantity,
           },
           success: function(data) {
             $("#FR_DATA_ORDER_FORM").html(data);
@@ -333,8 +338,6 @@
     }); //F D R E    
   </script>
 </section>
-
-
 
 
 
@@ -405,12 +408,13 @@
       let f_product_id = $(this).attr("value");
       let f_product_price = $(this).attr("saleprice");
       let val_sizename = $(this).attr("val_sizename");
+      let f_product_quantity = $("input[name='quantity_" + f_product_id + "']").val();
       $(".sells_price").html(f_product_price);
       $(".f_product_id").attr('value', f_product_id);
       $(".f_CHECKOUT_T_BILLL").attr('value', f_product_price);
       $(".FR_CHECKOUT_T_BILL_DATA").html(f_product_price);
 
-      let link = 'https://wa.me/' + FRc_Whatsappp + '?text=Hi ' + FRc_Cnamee + ' I Want To Buy ' + FRc_CT_ItemNamee + ' \n Size: ' + val_sizename + ' \n Price: ' + f_product_price + ' ৳ \n ' + FRD_HURLL + '/product/' + f_product_id + '/ ' + FRc_ProductSlug + '';
+      let link = 'https://wa.me/' + FRc_Whatsappp + '?text=Hi ' + FRc_Cnamee + ' I Want To Buy ' + FRc_CT_ItemNamee + ' \n Size: ' + val_sizename + ' \n Price: ' + f_product_price + ' ৳ \n Quantity: ' + f_product_quantity + ' \n ' + FRD_HURLL + '/product/' + f_product_id + '/ ' + FRc_ProductSlug + '';
       $(".FrWaOrderLink").attr('href', link);
 
       let link2 = fr_messenger_linkk + '?text=Hi ' + FRc_Cnamee + ' I Want To Buy ' + FRc_CT_ItemNamee + ' \n Size: ' + val_sizename + ' \n Price: ' + f_product_price + ' ৳ \n ' + FRD_HURLL + '/product/' + f_product_id + '/ ' + FRc_ProductSlug + '';

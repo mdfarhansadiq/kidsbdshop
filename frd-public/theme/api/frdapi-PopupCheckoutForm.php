@@ -6,6 +6,7 @@ header("Access-Control-Allow-Origin: $FRD_HURL");
 
 if( isset($_POST['f_product_id'])){
     $FRc_product_id = $_POST['f_product_id'];
+    $FRc_product_quantity = $_POST['quantity_' . $FRc_product_id];
     $FR_VC_POST = 1;
 }
 
@@ -101,9 +102,9 @@ extract($FRQ->fetch());
                         }
                         ?>
                         </div>
-
+                        <?php $total_price = $sells_pri * $FRc_product_quantity; ?>
                         <input type="hidden" class='f_product_id' id="f_product_id" value="<?php echo "$FRc_product_id";?>">
-                        <input type="hidden" class="f_CHECKOUT_T_BILLL" id="f_CHECKOUT_T_BILLL" value="<?php echo "$sells_pri";?>">
+                        <input type="hidden" class="f_CHECKOUT_T_BILLL" id="f_CHECKOUT_T_BILLL" value="<?php echo "$total_price";?>">
 
                     
                         <br>
