@@ -60,10 +60,10 @@
     $(document).ready(function(){
       setTimeout(function() {
           $("#ProductVideo").attr("src", 'https://www.youtube.com/embed/'+FRc_ProductVideoo);
-      }, 2000);
+      }, 0);
       setTimeout(function() {
           $(".ProductVideoSec").show();
-      }, 1000);
+      }, 0);
     });
    </script>
   <?php } ?> 
