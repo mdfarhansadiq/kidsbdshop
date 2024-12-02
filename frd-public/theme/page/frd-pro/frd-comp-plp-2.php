@@ -356,6 +356,7 @@
             let FRc_Price = parseInt(document.getElementById("f_CHECKOUT_T_BILLL").value) * FRc_ProductQuantity;
             $("#FR_CHECKOUT_T_BILL_DATA").html(FRc_Price);
             $("#f_CHECKOUT_T_BILLL").val(FRc_Price);
+            $("#f_product_quantity").val(FRc_ProductQuantity);
           },
         });
       });

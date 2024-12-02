@@ -27,6 +27,7 @@ $(document).ready(function () {
     let f_delivery_note = "NA";
 
     let f_product_id = $("#f_product_id").val();
+    let f_product_quantity = $("#f_product_quantity").val();
     let f_customer_name = $("#f_customer_name").val();
     let f_customer_mobile = $("#f_customer_mobile").val();
     let f_customer_address = $("#f_customer_address").val();
@@ -91,7 +92,7 @@ $(document).ready(function () {
 
       const data_obj = {
         f_product_id: f_product_id,
-
+        f_product_quantity: f_product_quantity,
         f_customer_name: f_customer_name,
         f_customer_mobile: f_customer_mobile,
         f_customer_address: f_customer_address,
