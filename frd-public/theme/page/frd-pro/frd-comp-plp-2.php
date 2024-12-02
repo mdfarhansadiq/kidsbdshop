@@ -318,7 +318,6 @@
     </div>
   </div>
   <script>
-    
     $(document).ready(function() {
       setTimeout(function() {
         let FRc_ProductQuantity = $("input[name='quantity_" + FRc_ProductIdxx + "']").val(); // Fetch the quantity value
@@ -335,7 +334,32 @@
           },
         });
       }, 0);
-    }); //F D R E    
+    }); //F D R E
+  </script>
+  <script>
+    $(document).ready(function() {
+      // Listen for changes in quantity input fields with dynamic IDs
+      $(document).on('input', "input[name^='quantity_']", function() {
+        let FRc_ProductIdxx = $(this).attr('name').split('_')[1]; // Extract product ID from name='quantity_$id'
+        let FRc_ProductQuantity = $(this).val(); // Get the updated quantity value
+
+        $.ajax({
+          url: FRD_HURLL + "/frd-public/theme/api/frdapi-PopupCheckoutForm.php",
+          method: "POST",
+          data: {
+            f_product_id: FRc_ProductIdxx,
+            f_spiderecommerce: FRD_HURLL,
+            f_product_quantity: FRc_ProductQuantity,
+          },
+          success: function(data) {
+            $("#FR_DATA_ORDER_FORM").html(data);
+            let FRc_Price = parseInt(document.getElementById("f_CHECKOUT_T_BILLL").value) * FRc_ProductQuantity;
+            $("#FR_CHECKOUT_T_BILL_DATA").html(FRc_Price);
+            $("#f_CHECKOUT_T_BILLL").val(FRc_Price);
+          },
+        });
+      });
+    });
   </script>
 </section>
 

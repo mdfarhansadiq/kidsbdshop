@@ -102,13 +102,13 @@ extract($FRQ->fetch());
                         }
                         ?>
                         </div>
-                        <?php $total_price = $sells_pri * $FRc_product_quantity; ?>
+                        
                         <input type="hidden" class='f_product_id' id="f_product_id" value="<?php echo "$FRc_product_id";?>">
-                        <input type="hidden" class="f_CHECKOUT_T_BILLL" id="f_CHECKOUT_T_BILLL" value="<?php echo "$total_price";?>">
+                        <input type="hidden" class="f_CHECKOUT_T_BILLL" id="f_CHECKOUT_T_BILLL" value="<?php echo "$sells_pri";?>">
 
                     
                         <br>
-                        <button class="btn btn-success btn-block frsty_theme_super_btn FrTrig_OrderPlace" type="submit"> <?php echo "$frd_placeorder_btn_txt";?> ৳ <span class="FR_CHECKOUT_T_BILL_DATA"><?php echo number_format($sells_pri);?></span>  <span class="glyphicon glyphicon-arrow-right alertt"></span></button>
+                        <button class="btn btn-success btn-block frsty_theme_super_btn FrTrig_OrderPlace" type="submit"> <?php echo "$frd_placeorder_btn_txt";?> ৳ <span class="FR_CHECKOUT_T_BILL_DATA" id="FR_CHECKOUT_T_BILL_DATA"><?php echo number_format($sells_pri * $FRc_product_quantity, 2);?></span>  <span class="glyphicon glyphicon-arrow-right alertt"></span></button>
                         <div id="OrderProcessinAlert"></div>
  
                         <br>
